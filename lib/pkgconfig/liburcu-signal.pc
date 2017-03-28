@@ -1,0 +1,11 @@
+prefix=/home/navin/userspace-rcu-0.9.3/target
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Userspace RCU signal
+Description: A userspace RCU (read-copy-update) library, signal version
+Version: 0.9.3
+Requires:
+Libs: -L${libdir} -lurcu-signal
+Cflags: -I${includedir} 
