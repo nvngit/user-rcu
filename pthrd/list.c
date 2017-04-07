@@ -195,25 +195,26 @@ readthrd_body (void *ptr)
 	int ii;
 	int rc;
 	int cnt = 0;
+	int retrycnt = 0;
 	struct timespec start;
 	struct timespec end;
 	unsigned int duration;
 	int thrdid = (int)ptr;
 	int nodecnt = gcfg.nodecnt;
 
-	printf ("read thread (id: %d) start\n", thrdid);
 
 	//usleep (1000);
-	sleep (10);
+	sleep (2);
+	//printf ("read thread (id: %d) start\n", thrdid);
 #if 0
 	while ((dll->count) < 100) {
 		sleep (5);
 	}
 #endif
 
+retry:
 	clock_gettime (CLOCK_REALTIME, &start);
 
-retry:
 	cnt = 0;
 	for (ii = 0; ii < nodecnt; ii++) {
 		rc = list_element (dll, ii);
@@ -227,12 +228,14 @@ retry:
 #endif
 	}
 
+	if (cnt < nodecnt) {
+		retrycnt++;
+		goto retry;
+	}
+
 	clock_gettime (CLOCK_REALTIME, &end);
 	duration = calculate_time_diff (&start, &end);
-	printf ("thrdid: %d, nodes processed %d, duration (usec): %d\n", thrdid, cnt, duration);
-
-	if (cnt < nodecnt)
-		goto retry;
+	printf ("thrdid: %d, nodes processed %d, retrycnt: %d, duration (usec): %d\n", thrdid, cnt, retrycnt, duration);
 
 	return 0;
 }
@@ -241,23 +244,33 @@ int
 main (int argc, char **argv)
 {
 	int ii;
-	pthread_t readthrd;
+	pthread_t *readthrd;
   	list_item *li;
 	struct timespec start;
 	struct timespec end;
 	unsigned int duration;
-	int nodecnt = atoi (argv[1]);
-	int thrdcnt = atoi (argv[2]);
+    int nodecnt;
+    int thrdcnt;
+
+    if (argc != 3) {
+        printf ("Usage:./a.out nodecnt thrdcnt\n");
+        exit (0);
+    }
+
+    nodecnt = atoi (argv[1]);
+    thrdcnt = atoi (argv[2]);
+
+	readthrd = (pthread_t *)malloc (sizeof(pthread_t)*thrdcnt);
 
 	gcfg.nodecnt = nodecnt;
 
 	dll = list_create(nodecnt);
 
 	for (ii = 1; ii <= thrdcnt; ii++) {
-		pthread_create (&readthrd, NULL, readthrd_body, (void *)ii);
+		pthread_create (&(readthrd[ii]), NULL, readthrd_body, (void *)ii);
 	}
 
-	printf ("main thread start\n");
+	//printf ("main thread start\n");
 
 	clock_gettime (CLOCK_REALTIME, &start);
 	for (ii = 0; ii < nodecnt; ii++) {
@@ -266,7 +279,7 @@ main (int argc, char **argv)
 	}
 	clock_gettime (CLOCK_REALTIME, &end);
 	duration = calculate_time_diff (&start, &end);
-	printf ("	time taken in adding %d nodes (usec): %d\n", nodecnt, duration);
+	printf ("main thread: time taken in adding %d nodes (usec): %d\n", nodecnt, duration);
 
 	sleep (100000);
 }

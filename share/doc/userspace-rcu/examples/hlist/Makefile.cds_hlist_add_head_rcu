@@ -13,9 +13,12 @@
 
 EXAMPLE_NAME = cds_hlist_add_head_rcu
 
+INCLUDES  += -I/users/home40/nagrawal/user-rcu/include/
+LIBS += /users/home40/nagrawal/user-rcu/lib/liburcu.a
+
 SOURCES = $(EXAMPLE_NAME).c
 OBJECTS = $(EXAMPLE_NAME).o
 BINARY = $(EXAMPLE_NAME)
-LIBS = -lurcu
+#LIBS = -lurcu
 
 include ../Makefile.examples.template

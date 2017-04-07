@@ -15,15 +15,17 @@ ifdef AM_CC
 CC = $(AM_CC)
 endif
 CFLAGS = -g -O2 -Wall
+INCLUDES  += -I/users/home40/nagrawal/user-rcu/include/
+LIBS += /users/home40/nagrawal/user-rcu/lib/liburcu.a
 
 all: $(BINARY)
 
 $(BINARY): $(OBJECTS)
-	$(CC) $(CFLAGS) $(LDFLAGS) $(AM_CFLAGS) $(AM_LDFLAGS) \
+	$(CC) $(INCLUDES) $(CFLAGS) $(LDFLAGS) $(AM_CFLAGS) $(AM_LDFLAGS) \
 		-o $@ $(OBJECTS) $(LIBS)
 
 $(OBJECTS): $(SOURCES) $(DEPS)
-	$(CC) $(CPPFLAGS) $(CFLAGS) $(AM_CPPFLAGS) $(AM_CFLAGS) \
+	$(CC) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(AM_CPPFLAGS) $(AM_CFLAGS) \
 		-c -o $@ $(SOURCES)
 
 .PHONY: clean

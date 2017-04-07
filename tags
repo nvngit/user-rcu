@@ -1,0 +1,1126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CAA_ARRAY_SIZE	include/urcu/compiler.h	109;"	d
+CAA_BITS_PER_LONG	include/urcu/compiler.h	52;"	d
+CAA_BITS_PER_LONG	include/urcu/compiler.h	54;"	d
+CAA_BITS_PER_LONG	include/urcu/compiler.h	56;"	d
+CAA_BUILD_BUG_ON	include/urcu/compiler.h	74;"	d
+CAA_BUILD_BUG_ON_ZERO	include/urcu/compiler.h	73;"	d
+CAA_CACHE_LINE_SIZE	include/urcu/arch.h	34;"	d
+CAA_CACHE_LINE_SIZE	include/urcu/arch/generic.h	33;"	d
+CDS_DEPRECATED	include/urcu/compiler.h	102;"	d
+CDS_DEPRECATED	include/urcu/compiler.h	105;"	d
+CDS_HLIST_HEAD	include/urcu/hlist.h	36;"	d
+CDS_HLIST_HEAD_INIT	include/urcu/hlist.h	39;"	d
+CDS_INIT_HLIST_HEAD	include/urcu/hlist.h	/^void CDS_INIT_HLIST_HEAD(struct cds_hlist_head *ptr)$/;"	f
+CDS_INIT_LIST_HEAD	include/urcu/list.h	44;"	d
+CDS_LFHT_ACCOUNTING	include/urcu/rculfhash.h	/^	CDS_LFHT_ACCOUNTING = (1U << 1),$/;"	e	enum:__anon2
+CDS_LFHT_AUTO_RESIZE	include/urcu/rculfhash.h	/^	CDS_LFHT_AUTO_RESIZE = (1U << 0),$/;"	e	enum:__anon2
+CDS_LFS_RCU_DEPRECATED	include/urcu/rculfstack.h	33;"	d
+CDS_LIST_HEAD	include/urcu/list.h	40;"	d
+CDS_LIST_HEAD_INIT	include/urcu/list.h	47;"	d
+CDS_WFCQ_RET_DEST_EMPTY	include/urcu/wfcqueue.h	/^	CDS_WFCQ_RET_DEST_EMPTY =	0,$/;"	e	enum:cds_wfcq_ret
+CDS_WFCQ_RET_DEST_NON_EMPTY	include/urcu/wfcqueue.h	/^	CDS_WFCQ_RET_DEST_NON_EMPTY =	1,$/;"	e	enum:cds_wfcq_ret
+CDS_WFCQ_RET_SRC_EMPTY	include/urcu/wfcqueue.h	/^	CDS_WFCQ_RET_SRC_EMPTY = 	2,$/;"	e	enum:cds_wfcq_ret
+CDS_WFCQ_RET_WOULDBLOCK	include/urcu/wfcqueue.h	/^	CDS_WFCQ_RET_WOULDBLOCK =	-1,$/;"	e	enum:cds_wfcq_ret
+CDS_WFCQ_STATE_LAST	include/urcu/wfcqueue.h	/^	CDS_WFCQ_STATE_LAST =		(1U << 0),$/;"	e	enum:cds_wfcq_state
+CDS_WFCQ_WOULDBLOCK	include/urcu/wfcqueue.h	46;"	d
+CDS_WFQ_DEPRECATED	include/urcu/wfqueue.h	35;"	d
+CDS_WFS_ADAPT_ATTEMPTS	include/urcu/static/wfstack.h	41;"	d
+CDS_WFS_END	include/urcu/static/wfstack.h	40;"	d
+CDS_WFS_STATE_LAST	include/urcu/wfstack.h	/^	CDS_WFS_STATE_LAST =		(1U << 0),$/;"	e	enum:cds_wfs_state
+CDS_WFS_WAIT	include/urcu/static/wfstack.h	42;"	d
+CDS_WFS_WOULDBLOCK	include/urcu/wfstack.h	61;"	d
+CMM_ACCESS_ONCE	include/urcu/compiler.h	41;"	d
+CMM_LOAD_SHARED	include/urcu/system.h	34;"	d
+CMM_STORE_SHARED	include/urcu/system.h	51;"	d
+CONFIG_HAVE_MEM_COHERENCY	include/urcu/arch/generic.h	37;"	d
+CONFIG_RCU_HAVE_CLOCK_GETTIME	include/urcu/config.h	25;"	d
+CONFIG_RCU_HAVE_FENCE	include/urcu/config.h	5;"	d
+CONFIG_RCU_HAVE_FUTEX	include/urcu/config.h	8;"	d
+CONFIG_RCU_SMP	include/urcu/config.h	13;"	d
+CONFIG_RCU_TLS	include/urcu/config.h	22;"	d
+DEBUG_RCU	include/urcu-qsbr.h	47;"	d
+DECLARE_URCU_TLS	include/urcu/tls-compat.h	67;"	d
+DECLARE_URCU_TLS	include/urcu/tls-compat.h	91;"	d
+DECLARE_URCU_TLS_1	include/urcu/tls-compat.h	89;"	d
+DEFINE_RCU_FLAVOR	include/urcu-flavor.h	48;"	d
+DEFINE_URCU_TLS	include/urcu/tls-compat.h	127;"	d
+DEFINE_URCU_TLS	include/urcu/tls-compat.h	70;"	d
+DEFINE_URCU_TLS_1	include/urcu/tls-compat.h	98;"	d
+FUTEX_WAIT	include/urcu/futex.h	33;"	d
+FUTEX_WAKE	include/urcu/futex.h	34;"	d
+HASH_LITTLE_ENDIAN	share/doc/userspace-rcu/examples/rculfhash/jhash.h	51;"	d
+HASH_LITTLE_ENDIAN	share/doc/userspace-rcu/examples/rculfhash/jhash.h	53;"	d
+HAS_CAA_GET_CYCLES	include/urcu/arch.h	73;"	d
+HAS_CAA_GET_CYCLES	include/urcu/arch/generic.h	154;"	d
+RCU_GP_COUNT	include/urcu/static/urcu-bp.h	66;"	d
+RCU_GP_COUNT	include/urcu/static/urcu.h	122;"	d
+RCU_GP_CTR	include/urcu/static/urcu-qsbr.h	66;"	d
+RCU_GP_CTR_NEST_MASK	include/urcu/static/urcu-bp.h	69;"	d
+RCU_GP_CTR_NEST_MASK	include/urcu/static/urcu.h	125;"	d
+RCU_GP_CTR_PHASE	include/urcu/static/urcu-bp.h	68;"	d
+RCU_GP_CTR_PHASE	include/urcu/static/urcu.h	124;"	d
+RCU_GP_ONLINE	include/urcu/static/urcu-qsbr.h	65;"	d
+RCU_MB	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	25;"	d	file:
+RCU_MEMBARRIER	include/urcu/map/urcu.h	38;"	d
+RCU_MEMBARRIER	include/urcu/static/urcu.h	53;"	d
+RCU_READER_ACTIVE_CURRENT	include/urcu/static/urcu-bp.h	/^	RCU_READER_ACTIVE_CURRENT,$/;"	e	enum:rcu_state
+RCU_READER_ACTIVE_CURRENT	include/urcu/static/urcu-qsbr.h	/^	RCU_READER_ACTIVE_CURRENT,$/;"	e	enum:rcu_state
+RCU_READER_ACTIVE_CURRENT	include/urcu/static/urcu.h	/^	RCU_READER_ACTIVE_CURRENT,$/;"	e	enum:rcu_state
+RCU_READER_ACTIVE_OLD	include/urcu/static/urcu-bp.h	/^	RCU_READER_ACTIVE_OLD,$/;"	e	enum:rcu_state
+RCU_READER_ACTIVE_OLD	include/urcu/static/urcu-qsbr.h	/^	RCU_READER_ACTIVE_OLD,$/;"	e	enum:rcu_state
+RCU_READER_ACTIVE_OLD	include/urcu/static/urcu.h	/^	RCU_READER_ACTIVE_OLD,$/;"	e	enum:rcu_state
+RCU_READER_INACTIVE	include/urcu/static/urcu-bp.h	/^	RCU_READER_INACTIVE,$/;"	e	enum:rcu_state
+RCU_READER_INACTIVE	include/urcu/static/urcu-qsbr.h	/^	RCU_READER_INACTIVE,$/;"	e	enum:rcu_state
+RCU_READER_INACTIVE	include/urcu/static/urcu.h	/^	RCU_READER_INACTIVE,$/;"	e	enum:rcu_state
+RCU_SIGNAL	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	25;"	d	file:
+SIGRCU	include/urcu/static/urcu.h	70;"	d
+SIGRCU	include/urcu/static/urcu.h	74;"	d
+UATOMIC_COMPAT	include/urcu/uatomic.h	523;"	d
+UATOMIC_COMPAT	include/urcu/uatomic.h	586;"	d
+UATOMIC_HAS_ATOMIC_BYTE	include/urcu/uatomic.h	26;"	d
+UATOMIC_HAS_ATOMIC_SHORT	include/urcu/uatomic.h	27;"	d
+URCU_CALL_RCU_PAUSE	include/urcu-call-rcu.h	51;"	d
+URCU_CALL_RCU_PAUSED	include/urcu-call-rcu.h	52;"	d
+URCU_CALL_RCU_RT	include/urcu-call-rcu.h	47;"	d
+URCU_CALL_RCU_RUNNING	include/urcu-call-rcu.h	48;"	d
+URCU_CALL_RCU_STOP	include/urcu-call-rcu.h	49;"	d
+URCU_CALL_RCU_STOPPED	include/urcu-call-rcu.h	50;"	d
+URCU_FORCE_CAST	include/urcu/compiler.h	85;"	d
+URCU_FORCE_CAST	include/urcu/compiler.h	87;"	d
+URCU_GCC_VERSION	include/urcu/compiler.h	116;"	d
+URCU_TLS	include/urcu/tls-compat.h	132;"	d
+URCU_TLS	include/urcu/tls-compat.h	73;"	d
+URCU_TLS_1	include/urcu/tls-compat.h	130;"	d
+WFCQ_ADAPT_ATTEMPTS	include/urcu/static/wfcqueue.h	83;"	d
+WFCQ_WAIT	include/urcu/static/wfcqueue.h	84;"	d
+WFQ_ADAPT_ATTEMPTS	include/urcu/static/wfqueue.h	48;"	d
+WFQ_WAIT	include/urcu/static/wfqueue.h	49;"	d
+_CDS_LIST_H	include/urcu/list.h	26;"	d
+_CMM_LOAD_SHARED	include/urcu/system.h	29;"	d
+_CMM_STORE_SHARED	include/urcu/system.h	45;"	d
+_JHASH_H	share/doc/userspace-rcu/examples/rculfhash/jhash.h	2;"	d
+_KCOMPAT_HLIST_H	include/urcu/hlist.h	2;"	d
+_URCU_ARCH_GENERIC_H	include/urcu/arch/generic.h	2;"	d
+_URCU_ARCH_UATOMIC_X86_H	include/urcu/uatomic.h	2;"	d
+_URCU_ARCH_X86_H	include/urcu/arch.h	2;"	d
+_URCU_BATCH_H	include/urcu-defer.h	2;"	d
+_URCU_BP_H	include/urcu-bp.h	2;"	d
+_URCU_BP_MAP_H	include/urcu/map/urcu-bp.h	2;"	d
+_URCU_BP_STATIC_H	include/urcu/static/urcu-bp.h	2;"	d
+_URCU_CALL_RCU_H	include/urcu-call-rcu.h	2;"	d
+_URCU_CDS_H	include/urcu/cds.h	2;"	d
+_URCU_COMPILER_H	include/urcu/compiler.h	2;"	d
+_URCU_DEBUG_H	include/urcu/debug.h	2;"	d
+_URCU_FLAVOR_H	include/urcu-flavor.h	2;"	d
+_URCU_FUTEX_H	include/urcu/futex.h	2;"	d
+_URCU_H	include/urcu.h	2;"	d
+_URCU_LFSTACK_H	include/urcu/lfstack.h	2;"	d
+_URCU_MAP_H	include/urcu/map/urcu.h	2;"	d
+_URCU_POINTER_H	include/urcu-pointer.h	2;"	d
+_URCU_POINTER_STATIC_H	include/urcu/static/urcu-pointer.h	2;"	d
+_URCU_QSBR_H	include/urcu-qsbr.h	2;"	d
+_URCU_QSBR_MAP_H	include/urcu/map/urcu-qsbr.h	2;"	d
+_URCU_QSBR_STATIC_H	include/urcu/static/urcu-qsbr.h	2;"	d
+_URCU_RAND_COMPAT_H	include/urcu/rand-compat.h	2;"	d
+_URCU_RCUHLIST_H	include/urcu/rcuhlist.h	26;"	d
+_URCU_RCULFHASH_H	include/urcu/rculfhash.h	2;"	d
+_URCU_RCULFQUEUE_H	include/urcu/rculfqueue.h	2;"	d
+_URCU_RCULFQUEUE_STATIC_H	include/urcu/static/rculfqueue.h	2;"	d
+_URCU_RCULFSTACK_H	include/urcu/rculfstack.h	2;"	d
+_URCU_RCULFSTACK_STATIC_H	include/urcu/static/rculfstack.h	2;"	d
+_URCU_RCULIST_H	include/urcu/rculist.h	26;"	d
+_URCU_REF_H	include/urcu/ref.h	2;"	d
+_URCU_STATIC_H	include/urcu/static/urcu.h	2;"	d
+_URCU_STATIC_LFSTACK_H	include/urcu/static/lfstack.h	2;"	d
+_URCU_STATIC_WFSTACK_H	include/urcu/static/wfstack.h	2;"	d
+_URCU_SYSCALL_COMPAT_H	include/urcu/syscall-compat.h	2;"	d
+_URCU_SYSTEM_H	include/urcu/system.h	2;"	d
+_URCU_TLS_COMPAT_H	include/urcu/tls-compat.h	2;"	d
+_URCU_UATOMIC_GENERIC_H	include/urcu/uatomic/generic.h	2;"	d
+_URCU_WFCQUEUE_H	include/urcu/wfcqueue.h	2;"	d
+_URCU_WFCQUEUE_STATIC_H	include/urcu/static/wfcqueue.h	2;"	d
+_URCU_WFQUEUE_H	include/urcu/wfqueue.h	2;"	d
+_URCU_WFQUEUE_STATIC_H	include/urcu/static/wfqueue.h	2;"	d
+_URCU_WFSTACK_H	include/urcu/wfstack.h	2;"	d
+__LIST_H	pthrd/list.h	2;"	d
+__NR_membarrier	include/urcu/arch.h	101;"	d
+__NR_membarrier	include/urcu/arch.h	99;"	d
+___cds_lfs_empty_head	include/urcu/static/lfstack.h	/^bool ___cds_lfs_empty_head(struct cds_lfs_head *head)$/;"	f
+___cds_lfs_init	include/urcu/static/lfstack.h	/^void ___cds_lfs_init(struct __cds_lfs_stack *s)$/;"	f
+___cds_lfs_pop	include/urcu/static/lfstack.h	/^struct cds_lfs_node *___cds_lfs_pop(cds_lfs_stack_ptr_t u_s)$/;"	f
+___cds_lfs_pop_all	include/urcu/static/lfstack.h	/^struct cds_lfs_head *___cds_lfs_pop_all(cds_lfs_stack_ptr_t u_s)$/;"	f
+___cds_wfcq_append	include/urcu/static/wfcqueue.h	/^static inline bool ___cds_wfcq_append(cds_wfcq_head_ptr_t u_head,$/;"	f
+___cds_wfcq_busy_wait	include/urcu/static/wfcqueue.h	/^___cds_wfcq_busy_wait(int *attempt, int blocking)$/;"	f
+___cds_wfcq_dequeue_blocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_dequeue_blocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_dequeue_nonblocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_dequeue_nonblocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_dequeue_with_state	include/urcu/static/wfcqueue.h	/^___cds_wfcq_dequeue_with_state(cds_wfcq_head_ptr_t u_head,$/;"	f
+___cds_wfcq_dequeue_with_state_blocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_dequeue_with_state_blocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_dequeue_with_state_nonblocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_dequeue_with_state_nonblocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_first	include/urcu/static/wfcqueue.h	/^___cds_wfcq_first(cds_wfcq_head_ptr_t u_head,$/;"	f
+___cds_wfcq_first_blocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_first_blocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_first_nonblocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_first_nonblocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_init	include/urcu/static/wfcqueue.h	/^static inline void ___cds_wfcq_init(struct __cds_wfcq_head *head,$/;"	f
+___cds_wfcq_next	include/urcu/static/wfcqueue.h	/^___cds_wfcq_next(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_next_blocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_next_blocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_next_nonblocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_next_nonblocking(cds_wfcq_head_ptr_t head,$/;"	f
+___cds_wfcq_node_sync_next	include/urcu/static/wfcqueue.h	/^___cds_wfcq_node_sync_next(struct cds_wfcq_node *node, int blocking)$/;"	f
+___cds_wfcq_splice	include/urcu/static/wfcqueue.h	/^___cds_wfcq_splice($/;"	f
+___cds_wfcq_splice_blocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_splice_blocking($/;"	f
+___cds_wfcq_splice_nonblocking	include/urcu/static/wfcqueue.h	/^___cds_wfcq_splice_nonblocking($/;"	f
+___cds_wfq_dequeue_blocking	include/urcu/static/wfqueue.h	/^___cds_wfq_dequeue_blocking(struct cds_wfq_queue *q)$/;"	f
+___cds_wfq_node_sync_next	include/urcu/static/wfqueue.h	/^___cds_wfq_node_sync_next(struct cds_wfq_node *node)$/;"	f
+___cds_wfs_end	include/urcu/static/wfstack.h	/^static inline bool ___cds_wfs_end(void *node)$/;"	f
+___cds_wfs_init	include/urcu/static/wfstack.h	/^static inline void ___cds_wfs_init(struct __cds_wfs_stack *s)$/;"	f
+___cds_wfs_next	include/urcu/static/wfstack.h	/^___cds_wfs_next(struct cds_wfs_node *node, int blocking)$/;"	f
+___cds_wfs_node_sync_next	include/urcu/static/wfstack.h	/^___cds_wfs_node_sync_next(struct cds_wfs_node *node, int blocking)$/;"	f
+___cds_wfs_pop	include/urcu/static/wfstack.h	/^___cds_wfs_pop(cds_wfs_stack_ptr_t u_stack, int *state, int blocking)$/;"	f
+___cds_wfs_pop_all	include/urcu/static/wfstack.h	/^___cds_wfs_pop_all(cds_wfs_stack_ptr_t u_stack)$/;"	f
+___cds_wfs_pop_blocking	include/urcu/static/wfstack.h	/^___cds_wfs_pop_blocking(cds_wfs_stack_ptr_t u_stack)$/;"	f
+___cds_wfs_pop_nonblocking	include/urcu/static/wfstack.h	/^___cds_wfs_pop_nonblocking(cds_wfs_stack_ptr_t u_stack)$/;"	f
+___cds_wfs_pop_with_state_blocking	include/urcu/static/wfstack.h	/^___cds_wfs_pop_with_state_blocking(cds_wfs_stack_ptr_t u_stack, int *state)$/;"	f
+___cds_wfs_pop_with_state_nonblocking	include/urcu/static/wfstack.h	/^___cds_wfs_pop_with_state_nonblocking(cds_wfs_stack_ptr_t u_stack, int *state)$/;"	f
+__cds_lfs_init	include/urcu/lfstack.h	99;"	d
+__cds_lfs_pop	include/urcu/lfstack.h	112;"	d
+__cds_lfs_pop_all	include/urcu/lfstack.h	113;"	d
+__cds_lfs_stack	include/urcu/lfstack.h	/^struct __cds_lfs_stack {$/;"	s
+__cds_list_del	include/urcu/list.h	/^void __cds_list_del(struct cds_list_head *prev, struct cds_list_head *next)$/;"	f
+__cds_wfcq_dequeue_blocking	include/urcu/wfcqueue.h	155;"	d
+__cds_wfcq_dequeue_nonblocking	include/urcu/wfcqueue.h	167;"	d
+__cds_wfcq_dequeue_with_state_blocking	include/urcu/wfcqueue.h	156;"	d
+__cds_wfcq_dequeue_with_state_nonblocking	include/urcu/wfcqueue.h	168;"	d
+__cds_wfcq_first_blocking	include/urcu/wfcqueue.h	159;"	d
+__cds_wfcq_first_nonblocking	include/urcu/wfcqueue.h	171;"	d
+__cds_wfcq_for_each_blocking	include/urcu/wfcqueue.h	459;"	d
+__cds_wfcq_for_each_blocking_safe	include/urcu/wfcqueue.h	478;"	d
+__cds_wfcq_head	include/urcu/wfcqueue.h	/^struct __cds_wfcq_head {$/;"	s
+__cds_wfcq_head_cast	include/urcu/wfcqueue.h	/^static inline cds_wfcq_head_ptr_t __cds_wfcq_head_cast(struct __cds_wfcq_head *head)$/;"	f
+__cds_wfcq_head_cast	include/urcu/wfcqueue.h	/^static inline struct __cds_wfcq_head *__cds_wfcq_head_cast(struct __cds_wfcq_head *head)$/;"	f
+__cds_wfcq_init	include/urcu/wfcqueue.h	137;"	d
+__cds_wfcq_next_blocking	include/urcu/wfcqueue.h	160;"	d
+__cds_wfcq_next_nonblocking	include/urcu/wfcqueue.h	172;"	d
+__cds_wfcq_splice_blocking	include/urcu/wfcqueue.h	158;"	d
+__cds_wfcq_splice_nonblocking	include/urcu/wfcqueue.h	170;"	d
+__cds_wfq_dequeue_blocking	include/urcu/wfqueue.h	/^struct cds_wfq_node *__cds_wfq_dequeue_blocking(struct cds_wfq_queue *q)$/;"	f
+__cds_wfs_init	include/urcu/wfstack.h	112;"	d
+__cds_wfs_pop_all	include/urcu/wfstack.h	140;"	d
+__cds_wfs_pop_blocking	include/urcu/wfstack.h	134;"	d
+__cds_wfs_pop_nonblocking	include/urcu/wfstack.h	137;"	d
+__cds_wfs_pop_with_state_blocking	include/urcu/wfstack.h	135;"	d
+__cds_wfs_pop_with_state_nonblocking	include/urcu/wfstack.h	138;"	d
+__cds_wfs_stack	include/urcu/wfstack.h	/^struct __cds_wfs_stack {$/;"	s
+__hp	include/urcu/uatomic.h	40;"	d
+__rcu	include/urcu/compiler.h	82;"	d
+__uatomic_add	include/urcu/uatomic.h	/^void __uatomic_add(void *addr, unsigned long val, int len)$/;"	f
+__uatomic_add_return	include/urcu/uatomic.h	/^unsigned long __uatomic_add_return(void *addr, unsigned long val,$/;"	f
+__uatomic_and	include/urcu/uatomic.h	/^void __uatomic_and(void *addr, unsigned long val, int len)$/;"	f
+__uatomic_cmpxchg	include/urcu/uatomic.h	/^unsigned long __uatomic_cmpxchg(void *addr, unsigned long old,$/;"	f
+__uatomic_dec	include/urcu/uatomic.h	/^void __uatomic_dec(void *addr, int len)$/;"	f
+__uatomic_dummy	include/urcu/uatomic.h	/^struct __uatomic_dummy {$/;"	s
+__uatomic_exchange	include/urcu/uatomic.h	/^unsigned long __uatomic_exchange(void *addr, unsigned long val, int len)$/;"	f
+__uatomic_inc	include/urcu/uatomic.h	/^void __uatomic_inc(void *addr, int len)$/;"	f
+__uatomic_or	include/urcu/uatomic.h	/^void __uatomic_or(void *addr, unsigned long val, int len)$/;"	f
+_cds_lfq_dequeue_rcu	include/urcu/static/rculfqueue.h	/^struct cds_lfq_node_rcu *_cds_lfq_dequeue_rcu(struct cds_lfq_queue_rcu *q)$/;"	f
+_cds_lfq_destroy_rcu	include/urcu/static/rculfqueue.h	/^int _cds_lfq_destroy_rcu(struct cds_lfq_queue_rcu *q)$/;"	f
+_cds_lfq_enqueue_rcu	include/urcu/static/rculfqueue.h	/^void _cds_lfq_enqueue_rcu(struct cds_lfq_queue_rcu *q,$/;"	f
+_cds_lfq_init_rcu	include/urcu/static/rculfqueue.h	/^void _cds_lfq_init_rcu(struct cds_lfq_queue_rcu *q,$/;"	f
+_cds_lfq_node_init_rcu	include/urcu/static/rculfqueue.h	/^void _cds_lfq_node_init_rcu(struct cds_lfq_node_rcu *node)$/;"	f
+_cds_lfs_destroy	include/urcu/static/lfstack.h	/^void _cds_lfs_destroy(struct cds_lfs_stack *s)$/;"	f
+_cds_lfs_empty	include/urcu/static/lfstack.h	/^bool _cds_lfs_empty(cds_lfs_stack_ptr_t s)$/;"	f
+_cds_lfs_init	include/urcu/static/lfstack.h	/^void _cds_lfs_init(struct cds_lfs_stack *s)$/;"	f
+_cds_lfs_init_rcu	include/urcu/static/rculfstack.h	/^void _cds_lfs_init_rcu(struct cds_lfs_stack_rcu *s)$/;"	f
+_cds_lfs_node_init	include/urcu/static/lfstack.h	/^void _cds_lfs_node_init(struct cds_lfs_node *node)$/;"	f
+_cds_lfs_node_init_rcu	include/urcu/static/rculfstack.h	/^void _cds_lfs_node_init_rcu(struct cds_lfs_node_rcu *node)$/;"	f
+_cds_lfs_pop_all_blocking	include/urcu/static/lfstack.h	/^_cds_lfs_pop_all_blocking(struct cds_lfs_stack *s)$/;"	f
+_cds_lfs_pop_blocking	include/urcu/static/lfstack.h	/^_cds_lfs_pop_blocking(struct cds_lfs_stack *s)$/;"	f
+_cds_lfs_pop_lock	include/urcu/static/lfstack.h	/^static inline void _cds_lfs_pop_lock(struct cds_lfs_stack *s)$/;"	f
+_cds_lfs_pop_rcu	include/urcu/static/rculfstack.h	/^_cds_lfs_pop_rcu(struct cds_lfs_stack_rcu *s)$/;"	f
+_cds_lfs_pop_unlock	include/urcu/static/lfstack.h	/^static inline void _cds_lfs_pop_unlock(struct cds_lfs_stack *s)$/;"	f
+_cds_lfs_push	include/urcu/static/lfstack.h	/^bool _cds_lfs_push(cds_lfs_stack_ptr_t u_s,$/;"	f
+_cds_lfs_push_rcu	include/urcu/static/rculfstack.h	/^int _cds_lfs_push_rcu(struct cds_lfs_stack_rcu *s,$/;"	f
+_cds_wfcq_dequeue_blocking	include/urcu/static/wfcqueue.h	/^_cds_wfcq_dequeue_blocking(struct cds_wfcq_head *head,$/;"	f
+_cds_wfcq_dequeue_lock	include/urcu/static/wfcqueue.h	/^static inline void _cds_wfcq_dequeue_lock(struct cds_wfcq_head *head,$/;"	f
+_cds_wfcq_dequeue_unlock	include/urcu/static/wfcqueue.h	/^static inline void _cds_wfcq_dequeue_unlock(struct cds_wfcq_head *head,$/;"	f
+_cds_wfcq_dequeue_with_state_blocking	include/urcu/static/wfcqueue.h	/^_cds_wfcq_dequeue_with_state_blocking(struct cds_wfcq_head *head,$/;"	f
+_cds_wfcq_destroy	include/urcu/static/wfcqueue.h	/^static inline void _cds_wfcq_destroy(struct cds_wfcq_head *head,$/;"	f
+_cds_wfcq_empty	include/urcu/static/wfcqueue.h	/^static inline bool _cds_wfcq_empty(cds_wfcq_head_ptr_t u_head,$/;"	f
+_cds_wfcq_enqueue	include/urcu/static/wfcqueue.h	/^static inline bool _cds_wfcq_enqueue(cds_wfcq_head_ptr_t head,$/;"	f
+_cds_wfcq_init	include/urcu/static/wfcqueue.h	/^static inline void _cds_wfcq_init(struct cds_wfcq_head *head,$/;"	f
+_cds_wfcq_node_init	include/urcu/static/wfcqueue.h	/^static inline void _cds_wfcq_node_init(struct cds_wfcq_node *node)$/;"	f
+_cds_wfcq_splice_blocking	include/urcu/static/wfcqueue.h	/^_cds_wfcq_splice_blocking($/;"	f
+_cds_wfq_dequeue_blocking	include/urcu/static/wfqueue.h	/^_cds_wfq_dequeue_blocking(struct cds_wfq_queue *q)$/;"	f
+_cds_wfq_destroy	include/urcu/static/wfqueue.h	/^static inline void _cds_wfq_destroy(struct cds_wfq_queue *q)$/;"	f
+_cds_wfq_enqueue	include/urcu/static/wfqueue.h	/^static inline void _cds_wfq_enqueue(struct cds_wfq_queue *q,$/;"	f
+_cds_wfq_init	include/urcu/static/wfqueue.h	/^static inline void _cds_wfq_init(struct cds_wfq_queue *q)$/;"	f
+_cds_wfq_node_init	include/urcu/static/wfqueue.h	/^static inline void _cds_wfq_node_init(struct cds_wfq_node *node)$/;"	f
+_cds_wfs_destroy	include/urcu/static/wfstack.h	/^void _cds_wfs_destroy(struct cds_wfs_stack *s)$/;"	f
+_cds_wfs_empty	include/urcu/static/wfstack.h	/^static inline bool _cds_wfs_empty(cds_wfs_stack_ptr_t u_stack)$/;"	f
+_cds_wfs_first	include/urcu/static/wfstack.h	/^_cds_wfs_first(struct cds_wfs_head *head)$/;"	f
+_cds_wfs_init	include/urcu/static/wfstack.h	/^void _cds_wfs_init(struct cds_wfs_stack *s)$/;"	f
+_cds_wfs_next_blocking	include/urcu/static/wfstack.h	/^_cds_wfs_next_blocking(struct cds_wfs_node *node)$/;"	f
+_cds_wfs_next_nonblocking	include/urcu/static/wfstack.h	/^_cds_wfs_next_nonblocking(struct cds_wfs_node *node)$/;"	f
+_cds_wfs_node_init	include/urcu/static/wfstack.h	/^void _cds_wfs_node_init(struct cds_wfs_node *node)$/;"	f
+_cds_wfs_pop_all_blocking	include/urcu/static/wfstack.h	/^_cds_wfs_pop_all_blocking(struct cds_wfs_stack *s)$/;"	f
+_cds_wfs_pop_blocking	include/urcu/static/wfstack.h	/^_cds_wfs_pop_blocking(struct cds_wfs_stack *s)$/;"	f
+_cds_wfs_pop_lock	include/urcu/static/wfstack.h	/^static inline void _cds_wfs_pop_lock(struct cds_wfs_stack *s)$/;"	f
+_cds_wfs_pop_unlock	include/urcu/static/wfstack.h	/^static inline void _cds_wfs_pop_unlock(struct cds_wfs_stack *s)$/;"	f
+_cds_wfs_pop_with_state_blocking	include/urcu/static/wfstack.h	/^_cds_wfs_pop_with_state_blocking(struct cds_wfs_stack *s, int *state)$/;"	f
+_cds_wfs_push	include/urcu/static/wfstack.h	/^int _cds_wfs_push(cds_wfs_stack_ptr_t u_stack, struct cds_wfs_node *node)$/;"	f
+_h	include/urcu/wfcqueue.h	/^	struct __cds_wfcq_head *_h;$/;"	m	union:__anon3	typeref:struct:__anon3::__cds_wfcq_head
+_h	include/urcu/wfcqueue.h	/^	struct __cds_wfcq_head *_h;$/;"	m	union:__anon4	typeref:struct:__anon4::__cds_wfcq_head
+_list_item	pthrd/list.h	/^typedef struct _list_item {$/;"	s
+_rcu_assign_pointer	include/urcu/static/urcu-pointer.h	142;"	d
+_rcu_cmpxchg_pointer	include/urcu/static/urcu-pointer.h	86;"	d
+_rcu_dereference	include/urcu/static/urcu-pointer.h	67;"	d
+_rcu_quiescent_state	include/urcu/map/urcu-qsbr.h	44;"	d
+_rcu_quiescent_state	include/urcu/static/urcu-qsbr.h	/^static inline void _rcu_quiescent_state(void)$/;"	f
+_rcu_quiescent_state_update_and_wakeup	include/urcu/static/urcu-qsbr.h	/^static inline void _rcu_quiescent_state_update_and_wakeup(unsigned long gp_ctr)$/;"	f
+_rcu_read_lock	include/urcu/map/urcu-bp.h	38;"	d
+_rcu_read_lock	include/urcu/map/urcu-qsbr.h	38;"	d
+_rcu_read_lock	include/urcu/map/urcu.h	131;"	d
+_rcu_read_lock	include/urcu/map/urcu.h	44;"	d
+_rcu_read_lock	include/urcu/map/urcu.h	89;"	d
+_rcu_read_lock	include/urcu/static/urcu-bp.h	/^static inline void _rcu_read_lock(void)$/;"	f
+_rcu_read_lock	include/urcu/static/urcu-qsbr.h	/^static inline void _rcu_read_lock(void)$/;"	f
+_rcu_read_lock	include/urcu/static/urcu.h	/^static inline void _rcu_read_lock(void)$/;"	f
+_rcu_read_lock_update	include/urcu/static/urcu-bp.h	/^static inline void _rcu_read_lock_update(unsigned long tmp)$/;"	f
+_rcu_read_lock_update	include/urcu/static/urcu.h	/^static inline void _rcu_read_lock_update(unsigned long tmp)$/;"	f
+_rcu_read_ongoing	include/urcu/map/urcu-bp.h	42;"	d
+_rcu_read_ongoing	include/urcu/map/urcu-qsbr.h	42;"	d
+_rcu_read_ongoing	include/urcu/map/urcu.h	135;"	d
+_rcu_read_ongoing	include/urcu/map/urcu.h	48;"	d
+_rcu_read_ongoing	include/urcu/map/urcu.h	93;"	d
+_rcu_read_ongoing	include/urcu/static/urcu-bp.h	/^static inline int _rcu_read_ongoing(void)$/;"	f
+_rcu_read_ongoing	include/urcu/static/urcu-qsbr.h	/^static inline int _rcu_read_ongoing(void)$/;"	f
+_rcu_read_ongoing	include/urcu/static/urcu.h	/^static inline int _rcu_read_ongoing(void)$/;"	f
+_rcu_read_unlock	include/urcu/map/urcu-bp.h	40;"	d
+_rcu_read_unlock	include/urcu/map/urcu-qsbr.h	40;"	d
+_rcu_read_unlock	include/urcu/map/urcu.h	133;"	d
+_rcu_read_unlock	include/urcu/map/urcu.h	46;"	d
+_rcu_read_unlock	include/urcu/map/urcu.h	91;"	d
+_rcu_read_unlock	include/urcu/static/urcu-bp.h	/^static inline void _rcu_read_unlock(void)$/;"	f
+_rcu_read_unlock	include/urcu/static/urcu-qsbr.h	/^static inline void _rcu_read_unlock(void)$/;"	f
+_rcu_read_unlock	include/urcu/static/urcu.h	/^static inline void _rcu_read_unlock(void)$/;"	f
+_rcu_read_unlock_update_and_wakeup	include/urcu/static/urcu.h	/^static inline void _rcu_read_unlock_update_and_wakeup(unsigned long tmp)$/;"	f
+_rcu_set_pointer	include/urcu/static/urcu-pointer.h	117;"	d
+_rcu_thread_offline	include/urcu/static/urcu-qsbr.h	/^static inline void _rcu_thread_offline(void)$/;"	f
+_rcu_thread_online	include/urcu/static/urcu-qsbr.h	/^static inline void _rcu_thread_online(void)$/;"	f
+_rcu_xchg_pointer	include/urcu/static/urcu-pointer.h	106;"	d
+_s	include/urcu/lfstack.h	/^	struct __cds_lfs_stack *_s;$/;"	m	union:__anon1	typeref:struct:__anon1::__cds_lfs_stack
+_s	include/urcu/wfstack.h	/^	struct __cds_wfs_stack *_s;$/;"	m	union:__anon5	typeref:struct:__anon5::__cds_wfs_stack
+_thrd_cfg	pthrd/list.c	/^typedef struct _thrd_cfg {$/;"	s	file:
+_thrd_cfg	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^typedef struct _thrd_cfg {$/;"	s	file:
+_uatomic_add	include/urcu/uatomic.h	407;"	d
+_uatomic_add_return	include/urcu/uatomic.h	237;"	d
+_uatomic_add_return	include/urcu/uatomic/generic.h	/^unsigned long _uatomic_add_return(void *addr, unsigned long val, int len)$/;"	f
+_uatomic_add_return	include/urcu/uatomic/generic.h	/^unsigned long _uatomic_add_return(void *addr, unsigned long val,$/;"	f
+_uatomic_and	include/urcu/uatomic.h	295;"	d
+_uatomic_and	include/urcu/uatomic/generic.h	/^void _uatomic_and(void *addr, unsigned long val, int len)$/;"	f
+_uatomic_and	include/urcu/uatomic/generic.h	/^void _uatomic_and(void *addr, unsigned long val,$/;"	f
+_uatomic_cmpxchg	include/urcu/uatomic.h	106;"	d
+_uatomic_cmpxchg	include/urcu/uatomic/generic.h	/^unsigned long _uatomic_cmpxchg(void *addr, unsigned long old,$/;"	f
+_uatomic_dec	include/urcu/uatomic.h	517;"	d
+_uatomic_exchange	include/urcu/uatomic/generic.h	/^unsigned long _uatomic_exchange(void *addr, unsigned long val, int len)$/;"	f
+_uatomic_inc	include/urcu/uatomic.h	462;"	d
+_uatomic_link_error	include/urcu/uatomic/generic.h	/^void _uatomic_link_error(void)$/;"	f
+_uatomic_or	include/urcu/uatomic.h	351;"	d
+_uatomic_or	include/urcu/uatomic/generic.h	/^void _uatomic_or(void *addr, unsigned long val, int len)$/;"	f
+_uatomic_or	include/urcu/uatomic/generic.h	/^void _uatomic_or(void *addr, unsigned long val,$/;"	f
+_uatomic_set	include/urcu/uatomic.h	42;"	d
+_uatomic_xchg	include/urcu/uatomic.h	170;"	d
+add_node	share/doc/userspace-rcu/examples/urcu-flavors/bp.c	/^int add_node(uint64_t v)$/;"	f	file:
+add_node	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	/^int add_node(uint64_t v)$/;"	f	file:
+add_node	share/doc/userspace-rcu/examples/urcu-flavors/membarrier.c	/^int add_node(uint64_t v)$/;"	f	file:
+add_node	share/doc/userspace-rcu/examples/urcu-flavors/qsbr.c	/^int add_node(uint64_t v)$/;"	f	file:
+add_node	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	/^int add_node(uint64_t v)$/;"	f	file:
+alloc	include/urcu/static/urcu-bp.h	/^	int alloc;	\/* registry entry allocated *\/$/;"	m	struct:rcu_reader
+alloc_bucket_table	include/urcu/rculfhash.h	/^	void (*alloc_bucket_table)(struct cds_lfht *ht, unsigned long order);$/;"	m	struct:cds_lfht_mm_type
+alloc_cds_lfht	include/urcu/rculfhash.h	/^	struct cds_lfht *(*alloc_cds_lfht)(unsigned long min_nr_alloc_buckets,$/;"	m	struct:cds_lfht_mm_type	typeref:struct:cds_lfht_mm_type::alloc_cds_lfht
+barrier	include/urcu-flavor.h	/^	void (*barrier)(void);$/;"	m	struct:rcu_flavor_struct
+bucket_at	include/urcu/rculfhash.h	/^	struct cds_lfht_node *(*bucket_at)(struct cds_lfht *ht,$/;"	m	struct:cds_lfht_mm_type	typeref:struct:cds_lfht_mm_type::bucket_at
+caa_cast_long_keep_sign	include/urcu/compiler.h	97;"	d
+caa_container_of	include/urcu/compiler.h	66;"	d
+caa_cpu_relax	include/urcu/arch.h	71;"	d
+caa_cpu_relax	include/urcu/arch/generic.h	150;"	d
+caa_cycles_t	include/urcu/arch.h	/^typedef uint64_t caa_cycles_t;$/;"	t
+caa_cycles_t	include/urcu/arch/generic.h	/^typedef uint64_t caa_cycles_t;$/;"	t
+caa_get_cycles	include/urcu/arch.h	/^static inline caa_cycles_t caa_get_cycles(void)$/;"	f
+caa_get_cycles	include/urcu/arch/generic.h	/^static inline caa_cycles_t caa_get_cycles (void)$/;"	f
+caa_is_signed_type	include/urcu/compiler.h	90;"	d
+caa_likely	include/urcu/compiler.h	24;"	d
+caa_max	include/urcu/compiler.h	44;"	d
+caa_min	include/urcu/compiler.h	48;"	d
+caa_unlikely	include/urcu/compiler.h	25;"	d
+calculate_time_diff	pthrd/list.c	/^calculate_time_diff (struct timespec *s, struct timespec *e)$/;"	f
+calculate_time_diff	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^calculate_time_diff (struct timespec *s, struct timespec *e)$/;"	f
+call_rcu	include/urcu/map/urcu-bp.h	61;"	d
+call_rcu	include/urcu/map/urcu-qsbr.h	63;"	d
+call_rcu	include/urcu/map/urcu.h	112;"	d
+call_rcu	include/urcu/map/urcu.h	154;"	d
+call_rcu	include/urcu/map/urcu.h	67;"	d
+call_rcu_after_fork_child	include/urcu/map/urcu-bp.h	65;"	d
+call_rcu_after_fork_child	include/urcu/map/urcu-qsbr.h	67;"	d
+call_rcu_after_fork_child	include/urcu/map/urcu.h	116;"	d
+call_rcu_after_fork_child	include/urcu/map/urcu.h	158;"	d
+call_rcu_after_fork_child	include/urcu/map/urcu.h	71;"	d
+call_rcu_after_fork_parent	include/urcu/map/urcu-bp.h	64;"	d
+call_rcu_after_fork_parent	include/urcu/map/urcu-qsbr.h	66;"	d
+call_rcu_after_fork_parent	include/urcu/map/urcu.h	115;"	d
+call_rcu_after_fork_parent	include/urcu/map/urcu.h	157;"	d
+call_rcu_after_fork_parent	include/urcu/map/urcu.h	70;"	d
+call_rcu_before_fork	include/urcu/map/urcu-bp.h	63;"	d
+call_rcu_before_fork	include/urcu/map/urcu-qsbr.h	65;"	d
+call_rcu_before_fork	include/urcu/map/urcu.h	114;"	d
+call_rcu_before_fork	include/urcu/map/urcu.h	156;"	d
+call_rcu_before_fork	include/urcu/map/urcu.h	69;"	d
+call_rcu_data_free	include/urcu/map/urcu-bp.h	62;"	d
+call_rcu_data_free	include/urcu/map/urcu-qsbr.h	64;"	d
+call_rcu_data_free	include/urcu/map/urcu.h	113;"	d
+call_rcu_data_free	include/urcu/map/urcu.h	155;"	d
+call_rcu_data_free	include/urcu/map/urcu.h	68;"	d
+cds_hlist_add_head	include/urcu/hlist.h	/^void cds_hlist_add_head(struct cds_hlist_node *newp,$/;"	f
+cds_hlist_add_head_rcu	include/urcu/rcuhlist.h	/^void cds_hlist_add_head_rcu(struct cds_hlist_node *newp,$/;"	f
+cds_hlist_del	include/urcu/hlist.h	/^void cds_hlist_del(struct cds_hlist_node *elem)$/;"	f
+cds_hlist_del_rcu	include/urcu/rcuhlist.h	/^void cds_hlist_del_rcu(struct cds_hlist_node *elem)$/;"	f
+cds_hlist_entry	include/urcu/hlist.h	43;"	d
+cds_hlist_for_each	include/urcu/hlist.h	67;"	d
+cds_hlist_for_each_entry	include/urcu/hlist.h	81;"	d
+cds_hlist_for_each_entry_2	include/urcu/hlist.h	95;"	d
+cds_hlist_for_each_entry_rcu	include/urcu/rcuhlist.h	67;"	d
+cds_hlist_for_each_entry_rcu_2	include/urcu/rcuhlist.h	74;"	d
+cds_hlist_for_each_entry_safe	include/urcu/hlist.h	88;"	d
+cds_hlist_for_each_entry_safe_2	include/urcu/hlist.h	102;"	d
+cds_hlist_for_each_rcu	include/urcu/rcuhlist.h	57;"	d
+cds_hlist_for_each_safe	include/urcu/hlist.h	70;"	d
+cds_hlist_head	include/urcu/hlist.h	/^struct cds_hlist_head {$/;"	s
+cds_hlist_node	include/urcu/hlist.h	/^struct cds_hlist_node {$/;"	s
+cds_lfht_for_each	include/urcu/rculfhash.h	456;"	d
+cds_lfht_for_each_duplicate	include/urcu/rculfhash.h	463;"	d
+cds_lfht_for_each_entry	include/urcu/rculfhash.h	470;"	d
+cds_lfht_for_each_entry_duplicate	include/urcu/rculfhash.h	479;"	d
+cds_lfht_iter	include/urcu/rculfhash.h	/^struct cds_lfht_iter {$/;"	s
+cds_lfht_iter_get_node	include/urcu/rculfhash.h	/^struct cds_lfht_node *cds_lfht_iter_get_node(struct cds_lfht_iter *iter)$/;"	f
+cds_lfht_match_fct	include/urcu/rculfhash.h	/^typedef int (*cds_lfht_match_fct)(struct cds_lfht_node *node, const void *key);$/;"	t
+cds_lfht_mm_type	include/urcu/rculfhash.h	/^struct cds_lfht_mm_type {$/;"	s
+cds_lfht_new	include/urcu/rculfhash.h	/^struct cds_lfht *cds_lfht_new(unsigned long init_size,$/;"	f
+cds_lfht_node	include/urcu/rculfhash.h	/^struct cds_lfht_node {$/;"	s
+cds_lfht_node_init	include/urcu/rculfhash.h	/^void cds_lfht_node_init(struct cds_lfht_node *node)$/;"	f
+cds_lfq_dequeue_rcu	include/urcu/rculfqueue.h	54;"	d
+cds_lfq_destroy_rcu	include/urcu/rculfqueue.h	52;"	d
+cds_lfq_enqueue_rcu	include/urcu/rculfqueue.h	53;"	d
+cds_lfq_init_rcu	include/urcu/rculfqueue.h	51;"	d
+cds_lfq_node_init_rcu	include/urcu/rculfqueue.h	50;"	d
+cds_lfq_node_rcu	include/urcu/rculfqueue.h	/^struct cds_lfq_node_rcu {$/;"	s
+cds_lfq_node_rcu_dummy	include/urcu/static/rculfqueue.h	/^struct cds_lfq_node_rcu_dummy {$/;"	s
+cds_lfq_queue_rcu	include/urcu/rculfqueue.h	/^struct cds_lfq_queue_rcu {$/;"	s
+cds_lfs_destroy	include/urcu/lfstack.h	98;"	d
+cds_lfs_empty	include/urcu/lfstack.h	100;"	d
+cds_lfs_for_each	include/urcu/lfstack.h	235;"	d
+cds_lfs_for_each_safe	include/urcu/lfstack.h	251;"	d
+cds_lfs_head	include/urcu/lfstack.h	/^struct cds_lfs_head {$/;"	s
+cds_lfs_init	include/urcu/lfstack.h	97;"	d
+cds_lfs_init_rcu	include/urcu/rculfstack.h	/^void cds_lfs_init_rcu(struct cds_lfs_stack_rcu *s)$/;"	f
+cds_lfs_node	include/urcu/lfstack.h	/^struct cds_lfs_node {$/;"	s
+cds_lfs_node_init	include/urcu/lfstack.h	96;"	d
+cds_lfs_node_init_rcu	include/urcu/rculfstack.h	/^void cds_lfs_node_init_rcu(struct cds_lfs_node_rcu *node)$/;"	f
+cds_lfs_node_rcu	include/urcu/rculfstack.h	/^struct cds_lfs_node_rcu {$/;"	s
+cds_lfs_pop_all_blocking	include/urcu/lfstack.h	105;"	d
+cds_lfs_pop_blocking	include/urcu/lfstack.h	104;"	d
+cds_lfs_pop_lock	include/urcu/lfstack.h	108;"	d
+cds_lfs_pop_rcu	include/urcu/rculfstack.h	/^struct cds_lfs_node_rcu *cds_lfs_pop_rcu(struct cds_lfs_stack_rcu *s)$/;"	f
+cds_lfs_pop_unlock	include/urcu/lfstack.h	109;"	d
+cds_lfs_push	include/urcu/lfstack.h	101;"	d
+cds_lfs_push_rcu	include/urcu/rculfstack.h	/^int cds_lfs_push_rcu(struct cds_lfs_stack_rcu *s,$/;"	f
+cds_lfs_stack	include/urcu/lfstack.h	/^struct cds_lfs_stack {$/;"	s
+cds_lfs_stack_ptr_t	include/urcu/lfstack.h	/^} __attribute__((__transparent_union__)) cds_lfs_stack_ptr_t;$/;"	t	typeref:union:__anon1
+cds_lfs_stack_rcu	include/urcu/rculfstack.h	/^struct cds_lfs_stack_rcu {$/;"	s
+cds_list_add	include/urcu/list.h	/^void cds_list_add(struct cds_list_head *newp, struct cds_list_head *head)$/;"	f
+cds_list_add_rcu	include/urcu/rculist.h	/^void cds_list_add_rcu(struct cds_list_head *newp, struct cds_list_head *head)$/;"	f
+cds_list_add_tail	include/urcu/list.h	/^void cds_list_add_tail(struct cds_list_head *newp, struct cds_list_head *head)$/;"	f
+cds_list_add_tail_rcu	include/urcu/rculist.h	/^void cds_list_add_tail_rcu(struct cds_list_head *newp,$/;"	f
+cds_list_del	include/urcu/list.h	/^void cds_list_del(struct cds_list_head *elem)$/;"	f
+cds_list_del_init	include/urcu/list.h	/^void cds_list_del_init(struct cds_list_head *elem)$/;"	f
+cds_list_del_rcu	include/urcu/rculist.h	/^void cds_list_del_rcu(struct cds_list_head *elem)$/;"	f
+cds_list_empty	include/urcu/list.h	/^int cds_list_empty(struct cds_list_head *head)$/;"	f
+cds_list_entry	include/urcu/list.h	124;"	d
+cds_list_first_entry	include/urcu/list.h	129;"	d
+cds_list_for_each	include/urcu/list.h	133;"	d
+cds_list_for_each_entry	include/urcu/list.h	158;"	d
+cds_list_for_each_entry_rcu	include/urcu/rculist.h	87;"	d
+cds_list_for_each_entry_reverse	include/urcu/list.h	163;"	d
+cds_list_for_each_entry_safe	include/urcu/list.h	168;"	d
+cds_list_for_each_entry_safe_from	include/urcu/list.h	178;"	d
+cds_list_for_each_prev	include/urcu/list.h	146;"	d
+cds_list_for_each_prev_safe	include/urcu/list.h	153;"	d
+cds_list_for_each_rcu	include/urcu/rculist.h	81;"	d
+cds_list_for_each_safe	include/urcu/list.h	140;"	d
+cds_list_head	include/urcu/list.h	/^struct cds_list_head {$/;"	s
+cds_list_move	include/urcu/list.h	/^void cds_list_move(struct cds_list_head *elem, struct cds_list_head *head)$/;"	f
+cds_list_replace	include/urcu/list.h	/^void cds_list_replace(struct cds_list_head *old, struct cds_list_head *_new)$/;"	f
+cds_list_replace_init	include/urcu/list.h	/^void cds_list_replace_init(struct cds_list_head *old,$/;"	f
+cds_list_replace_rcu	include/urcu/rculist.h	/^void cds_list_replace_rcu(struct cds_list_head *old, struct cds_list_head *_new)$/;"	f
+cds_list_splice	include/urcu/list.h	/^void cds_list_splice(struct cds_list_head *add, struct cds_list_head *head)$/;"	f
+cds_wfcq_dequeue_blocking	include/urcu/wfcqueue.h	147;"	d
+cds_wfcq_dequeue_lock	include/urcu/wfcqueue.h	143;"	d
+cds_wfcq_dequeue_unlock	include/urcu/wfcqueue.h	144;"	d
+cds_wfcq_dequeue_with_state_blocking	include/urcu/wfcqueue.h	148;"	d
+cds_wfcq_destroy	include/urcu/wfcqueue.h	138;"	d
+cds_wfcq_empty	include/urcu/wfcqueue.h	139;"	d
+cds_wfcq_enqueue	include/urcu/wfcqueue.h	140;"	d
+cds_wfcq_first_blocking	include/urcu/wfcqueue.h	151;"	d
+cds_wfcq_head	include/urcu/wfcqueue.h	/^struct cds_wfcq_head {$/;"	s
+cds_wfcq_head_cast	include/urcu/wfcqueue.h	/^static inline cds_wfcq_head_ptr_t cds_wfcq_head_cast(struct cds_wfcq_head *head)$/;"	f
+cds_wfcq_head_cast	include/urcu/wfcqueue.h	/^static inline struct cds_wfcq_head *cds_wfcq_head_cast(struct cds_wfcq_head *head)$/;"	f
+cds_wfcq_head_ptr_t	include/urcu/wfcqueue.h	/^} __attribute__((__transparent_union__)) cds_wfcq_head_ptr_t;$/;"	t	typeref:union:__anon3
+cds_wfcq_head_ptr_t	include/urcu/wfcqueue.h	/^} cds_wfcq_head_ptr_t;$/;"	t	typeref:union:__anon4
+cds_wfcq_init	include/urcu/wfcqueue.h	136;"	d
+cds_wfcq_next_blocking	include/urcu/wfcqueue.h	152;"	d
+cds_wfcq_node	include/urcu/wfcqueue.h	/^struct cds_wfcq_node {$/;"	s
+cds_wfcq_node_init	include/urcu/wfcqueue.h	135;"	d
+cds_wfcq_ret	include/urcu/wfcqueue.h	/^enum cds_wfcq_ret {$/;"	g
+cds_wfcq_splice_blocking	include/urcu/wfcqueue.h	150;"	d
+cds_wfcq_state	include/urcu/wfcqueue.h	/^enum cds_wfcq_state {$/;"	g
+cds_wfcq_tail	include/urcu/wfcqueue.h	/^struct cds_wfcq_tail {$/;"	s
+cds_wfq_dequeue_blocking	include/urcu/wfqueue.h	/^struct cds_wfq_node *cds_wfq_dequeue_blocking(struct cds_wfq_queue *q)$/;"	f
+cds_wfq_destroy	include/urcu/wfqueue.h	/^void cds_wfq_destroy(struct cds_wfq_queue *q)$/;"	f
+cds_wfq_enqueue	include/urcu/wfqueue.h	/^void cds_wfq_enqueue(struct cds_wfq_queue *q, struct cds_wfq_node *node)$/;"	f
+cds_wfq_init	include/urcu/wfqueue.h	/^void cds_wfq_init(struct cds_wfq_queue *q)$/;"	f
+cds_wfq_node	include/urcu/wfqueue.h	/^struct cds_wfq_node {$/;"	s
+cds_wfq_node_init	include/urcu/wfqueue.h	/^void cds_wfq_node_init(struct cds_wfq_node *node)$/;"	f
+cds_wfq_queue	include/urcu/wfqueue.h	/^struct cds_wfq_queue {$/;"	s
+cds_wfs_destroy	include/urcu/wfstack.h	111;"	d
+cds_wfs_empty	include/urcu/wfstack.h	113;"	d
+cds_wfs_first	include/urcu/wfstack.h	125;"	d
+cds_wfs_for_each_blocking	include/urcu/wfstack.h	335;"	d
+cds_wfs_for_each_blocking_safe	include/urcu/wfstack.h	351;"	d
+cds_wfs_head	include/urcu/wfstack.h	/^struct cds_wfs_head {$/;"	s
+cds_wfs_init	include/urcu/wfstack.h	110;"	d
+cds_wfs_next_blocking	include/urcu/wfstack.h	126;"	d
+cds_wfs_next_nonblocking	include/urcu/wfstack.h	127;"	d
+cds_wfs_node	include/urcu/wfstack.h	/^struct cds_wfs_node {$/;"	s
+cds_wfs_node_init	include/urcu/wfstack.h	109;"	d
+cds_wfs_pop_all_blocking	include/urcu/wfstack.h	119;"	d
+cds_wfs_pop_blocking	include/urcu/wfstack.h	117;"	d
+cds_wfs_pop_lock	include/urcu/wfstack.h	130;"	d
+cds_wfs_pop_unlock	include/urcu/wfstack.h	131;"	d
+cds_wfs_pop_with_state_blocking	include/urcu/wfstack.h	118;"	d
+cds_wfs_push	include/urcu/wfstack.h	114;"	d
+cds_wfs_stack	include/urcu/wfstack.h	/^struct cds_wfs_stack {$/;"	s
+cds_wfs_stack_ptr_t	include/urcu/wfstack.h	/^} __attribute__((__transparent_union__)) cds_wfs_stack_ptr_t;$/;"	t	typeref:union:__anon5
+cds_wfs_state	include/urcu/wfstack.h	/^enum cds_wfs_state {$/;"	g
+cmm_barrier	include/urcu/compiler.h	27;"	d
+cmm_mb	include/urcu/arch.h	37;"	d
+cmm_mb	include/urcu/arch.h	61;"	d
+cmm_mb	include/urcu/arch.h	65;"	d
+cmm_mb	include/urcu/arch/generic.h	47;"	d
+cmm_mb	include/urcu/arch/generic.h	78;"	d
+cmm_mc	include/urcu/arch/generic.h	58;"	d
+cmm_read_barrier_depends	include/urcu/arch/generic.h	100;"	d
+cmm_rmb	include/urcu/arch.h	44;"	d
+cmm_rmb	include/urcu/arch.h	62;"	d
+cmm_rmb	include/urcu/arch.h	66;"	d
+cmm_rmb	include/urcu/arch/generic.h	51;"	d
+cmm_rmb	include/urcu/arch/generic.h	82;"	d
+cmm_rmc	include/urcu/arch/generic.h	59;"	d
+cmm_rmc	include/urcu/arch/generic.h	90;"	d
+cmm_smp_mb	include/urcu/arch/generic.h	105;"	d
+cmm_smp_mb	include/urcu/arch/generic.h	127;"	d
+cmm_smp_mb__after_uatomic_add	include/urcu/uatomic.h	613;"	d
+cmm_smp_mb__after_uatomic_add	include/urcu/uatomic/generic.h	587;"	d
+cmm_smp_mb__after_uatomic_and	include/urcu/uatomic.h	601;"	d
+cmm_smp_mb__after_uatomic_and	include/urcu/uatomic/generic.h	133;"	d
+cmm_smp_mb__after_uatomic_and	include/urcu/uatomic/generic.h	350;"	d
+cmm_smp_mb__after_uatomic_dec	include/urcu/uatomic.h	621;"	d
+cmm_smp_mb__after_uatomic_dec	include/urcu/uatomic/generic.h	606;"	d
+cmm_smp_mb__after_uatomic_inc	include/urcu/uatomic.h	617;"	d
+cmm_smp_mb__after_uatomic_inc	include/urcu/uatomic/generic.h	600;"	d
+cmm_smp_mb__after_uatomic_or	include/urcu/uatomic.h	606;"	d
+cmm_smp_mb__after_uatomic_or	include/urcu/uatomic/generic.h	173;"	d
+cmm_smp_mb__after_uatomic_or	include/urcu/uatomic/generic.h	424;"	d
+cmm_smp_mb__after_uatomic_sub	include/urcu/uatomic/generic.h	595;"	d
+cmm_smp_mb__before_uatomic_add	include/urcu/uatomic.h	612;"	d
+cmm_smp_mb__before_uatomic_add	include/urcu/uatomic/generic.h	586;"	d
+cmm_smp_mb__before_uatomic_and	include/urcu/uatomic.h	600;"	d
+cmm_smp_mb__before_uatomic_and	include/urcu/uatomic/generic.h	132;"	d
+cmm_smp_mb__before_uatomic_and	include/urcu/uatomic/generic.h	349;"	d
+cmm_smp_mb__before_uatomic_dec	include/urcu/uatomic.h	620;"	d
+cmm_smp_mb__before_uatomic_dec	include/urcu/uatomic/generic.h	605;"	d
+cmm_smp_mb__before_uatomic_inc	include/urcu/uatomic.h	616;"	d
+cmm_smp_mb__before_uatomic_inc	include/urcu/uatomic/generic.h	599;"	d
+cmm_smp_mb__before_uatomic_or	include/urcu/uatomic.h	605;"	d
+cmm_smp_mb__before_uatomic_or	include/urcu/uatomic/generic.h	172;"	d
+cmm_smp_mb__before_uatomic_or	include/urcu/uatomic/generic.h	423;"	d
+cmm_smp_mb__before_uatomic_sub	include/urcu/uatomic/generic.h	594;"	d
+cmm_smp_mc	include/urcu/arch/generic.h	114;"	d
+cmm_smp_mc	include/urcu/arch/generic.h	136;"	d
+cmm_smp_read_barrier_depends	include/urcu/arch/generic.h	123;"	d
+cmm_smp_read_barrier_depends	include/urcu/arch/generic.h	145;"	d
+cmm_smp_rmb	include/urcu/arch.h	46;"	d
+cmm_smp_rmb	include/urcu/arch/generic.h	108;"	d
+cmm_smp_rmb	include/urcu/arch/generic.h	130;"	d
+cmm_smp_rmc	include/urcu/arch/generic.h	117;"	d
+cmm_smp_rmc	include/urcu/arch/generic.h	139;"	d
+cmm_smp_wmb	include/urcu/arch.h	47;"	d
+cmm_smp_wmb	include/urcu/arch/generic.h	111;"	d
+cmm_smp_wmb	include/urcu/arch/generic.h	133;"	d
+cmm_smp_wmc	include/urcu/arch/generic.h	120;"	d
+cmm_smp_wmc	include/urcu/arch/generic.h	142;"	d
+cmm_wmb	include/urcu/arch.h	45;"	d
+cmm_wmb	include/urcu/arch.h	63;"	d
+cmm_wmb	include/urcu/arch.h	67;"	d
+cmm_wmb	include/urcu/arch/generic.h	55;"	d
+cmm_wmb	include/urcu/arch/generic.h	86;"	d
+cmm_wmc	include/urcu/arch/generic.h	60;"	d
+cmm_wmc	include/urcu/arch/generic.h	94;"	d
+compat_uatomic_add	include/urcu/uatomic.h	578;"	d
+compat_uatomic_add_return	include/urcu/uatomic.h	573;"	d
+compat_uatomic_and	include/urcu/uatomic.h	560;"	d
+compat_uatomic_cmpxchg	include/urcu/uatomic.h	553;"	d
+compat_uatomic_dec	include/urcu/uatomic.h	582;"	d
+compat_uatomic_inc	include/urcu/uatomic.h	580;"	d
+compat_uatomic_or	include/urcu/uatomic.h	566;"	d
+compat_uatomic_set	include/urcu/uatomic.h	538;"	d
+compat_uatomic_xchg	include/urcu/uatomic.h	546;"	d
+count	pthrd/list.h	/^  int count;$/;"	m	struct:__anon6
+create_all_cpu_call_rcu_data	include/urcu/map/urcu-bp.h	59;"	d
+create_all_cpu_call_rcu_data	include/urcu/map/urcu-qsbr.h	62;"	d
+create_all_cpu_call_rcu_data	include/urcu/map/urcu.h	110;"	d
+create_all_cpu_call_rcu_data	include/urcu/map/urcu.h	152;"	d
+create_all_cpu_call_rcu_data	include/urcu/map/urcu.h	65;"	d
+create_call_rcu_data	include/urcu/map/urcu-bp.h	53;"	d
+create_call_rcu_data	include/urcu/map/urcu-qsbr.h	56;"	d
+create_call_rcu_data	include/urcu/map/urcu.h	104;"	d
+create_call_rcu_data	include/urcu/map/urcu.h	146;"	d
+create_call_rcu_data	include/urcu/map/urcu.h	59;"	d
+ctr	include/urcu/static/urcu-bp.h	/^	unsigned long ctr;$/;"	m	struct:rcu_gp
+ctr	include/urcu/static/urcu-bp.h	/^	unsigned long ctr;$/;"	m	struct:rcu_reader
+ctr	include/urcu/static/urcu-qsbr.h	/^	unsigned long ctr;$/;"	m	struct:rcu_gp
+ctr	include/urcu/static/urcu-qsbr.h	/^	unsigned long ctr;$/;"	m	struct:rcu_reader
+ctr	include/urcu/static/urcu.h	/^	unsigned long ctr;$/;"	m	struct:rcu_gp
+ctr	include/urcu/static/urcu.h	/^	unsigned long ctr;$/;"	m	struct:rcu_reader
+defer_rcu	include/urcu/map/urcu-bp.h	68;"	d
+defer_rcu	include/urcu/map/urcu-qsbr.h	70;"	d
+defer_rcu	include/urcu/map/urcu.h	119;"	d
+defer_rcu	include/urcu/map/urcu.h	161;"	d
+defer_rcu	include/urcu/map/urcu.h	74;"	d
+dll	pthrd/list.c	/^list *dll = NULL;$/;"	v
+dummy	include/urcu/rculfqueue.h	/^	int dummy;$/;"	m	struct:cds_lfq_node_rcu
+dummy	include/urcu/wfqueue.h	/^	struct cds_wfq_node dummy;	\/* Dummy node *\/$/;"	m	struct:cds_wfq_queue	typeref:struct:cds_wfq_queue::cds_wfq_node
+enqueue_dummy	include/urcu/static/rculfqueue.h	/^void enqueue_dummy(struct cds_lfq_queue_rcu *q)$/;"	f
+enqueue_values	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_splice.c	/^int enqueue_values(struct cds_wfcq_head *head,$/;"	f	file:
+final	share/doc/userspace-rcu/examples/rculfhash/jhash.h	39;"	d
+free_all_cpu_call_rcu_data	include/urcu/map/urcu-bp.h	60;"	d
+free_all_cpu_call_rcu_data	include/urcu/map/urcu.h	111;"	d
+free_all_cpu_call_rcu_data	include/urcu/map/urcu.h	153;"	d
+free_all_cpu_call_rcu_data	include/urcu/map/urcu.h	66;"	d
+free_bucket_table	include/urcu/rculfhash.h	/^	void (*free_bucket_table)(struct cds_lfht *ht, unsigned long order);$/;"	m	struct:cds_lfht_mm_type
+free_dummy	include/urcu/static/rculfqueue.h	/^void free_dummy(struct cds_lfq_node_rcu *node)$/;"	f
+free_dummy_cb	include/urcu/static/rculfqueue.h	/^void free_dummy_cb(struct rcu_head *head)$/;"	f
+free_node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^void free_node(struct rcu_head *head)$/;"	f	file:
+free_node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_del.c	/^void free_node(struct rcu_head *head)$/;"	f	file:
+free_node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_destroy.c	/^void free_node(struct rcu_head *head)$/;"	f	file:
+free_node	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_dequeue.c	/^void free_node(struct rcu_head *head)$/;"	f	file:
+free_node_rcu	share/doc/userspace-rcu/examples/hlist/cds_hlist_del_rcu.c	/^void free_node_rcu(struct rcu_head *head)$/;"	f	file:
+free_node_rcu	share/doc/userspace-rcu/examples/list/cds_list_del_rcu.c	/^void free_node_rcu(struct rcu_head *head)$/;"	f	file:
+free_node_rcu	share/doc/userspace-rcu/examples/list/cds_list_replace_rcu.c	/^void free_node_rcu(struct rcu_head *head)$/;"	f	file:
+func	include/urcu-call-rcu.h	/^	void (*func)(struct rcu_head *head);$/;"	m	struct:rcu_head
+futex	include/urcu/futex.h	/^static inline int futex(int32_t *uaddr, int op, int32_t val,$/;"	f
+futex	include/urcu/static/urcu-qsbr.h	/^	int32_t futex;$/;"	m	struct:rcu_gp
+futex	include/urcu/static/urcu.h	/^	int32_t futex;$/;"	m	struct:rcu_gp
+futex_async	include/urcu/futex.h	/^static inline int futex_async(int32_t *uaddr, int op, int32_t val,$/;"	f
+futex_noasync	include/urcu/futex.h	/^static inline int futex_noasync(int32_t *uaddr, int op, int32_t val,$/;"	f
+gcfg	pthrd/list.c	/^thrd_cfg gcfg;$/;"	v
+gcfg	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^thrd_cfg gcfg;$/;"	v
+get_call_rcu_data	include/urcu/map/urcu-bp.h	56;"	d
+get_call_rcu_data	include/urcu/map/urcu-qsbr.h	59;"	d
+get_call_rcu_data	include/urcu/map/urcu.h	107;"	d
+get_call_rcu_data	include/urcu/map/urcu.h	149;"	d
+get_call_rcu_data	include/urcu/map/urcu.h	62;"	d
+get_call_rcu_thread	include/urcu/map/urcu-bp.h	52;"	d
+get_call_rcu_thread	include/urcu/map/urcu-qsbr.h	55;"	d
+get_call_rcu_thread	include/urcu/map/urcu.h	103;"	d
+get_call_rcu_thread	include/urcu/map/urcu.h	145;"	d
+get_call_rcu_thread	include/urcu/map/urcu.h	58;"	d
+get_cpu_call_rcu_data	include/urcu/map/urcu-bp.h	51;"	d
+get_cpu_call_rcu_data	include/urcu/map/urcu-qsbr.h	54;"	d
+get_cpu_call_rcu_data	include/urcu/map/urcu.h	102;"	d
+get_cpu_call_rcu_data	include/urcu/map/urcu.h	144;"	d
+get_cpu_call_rcu_data	include/urcu/map/urcu.h	57;"	d
+get_default_call_rcu_data	include/urcu/map/urcu-bp.h	55;"	d
+get_default_call_rcu_data	include/urcu/map/urcu-qsbr.h	58;"	d
+get_default_call_rcu_data	include/urcu/map/urcu.h	106;"	d
+get_default_call_rcu_data	include/urcu/map/urcu.h	148;"	d
+get_default_call_rcu_data	include/urcu/map/urcu.h	61;"	d
+get_thread_call_rcu_data	include/urcu/map/urcu-bp.h	57;"	d
+get_thread_call_rcu_data	include/urcu/map/urcu-qsbr.h	60;"	d
+get_thread_call_rcu_data	include/urcu/map/urcu.h	108;"	d
+get_thread_call_rcu_data	include/urcu/map/urcu.h	150;"	d
+get_thread_call_rcu_data	include/urcu/map/urcu.h	63;"	d
+h	include/urcu/wfcqueue.h	/^	struct cds_wfcq_head *h;$/;"	m	union:__anon3	typeref:struct:__anon3::cds_wfcq_head
+h	include/urcu/wfcqueue.h	/^	struct cds_wfcq_head *h;$/;"	m	union:__anon4	typeref:struct:__anon4::cds_wfcq_head
+hashlittle	share/doc/userspace-rcu/examples/rculfhash/jhash.h	/^uint32_t hashlittle(const void *key, size_t length, uint32_t initval)$/;"	f
+head	include/urcu/lfstack.h	/^	struct cds_lfs_head *head;$/;"	m	struct:__cds_lfs_stack	typeref:struct:__cds_lfs_stack::cds_lfs_head
+head	include/urcu/lfstack.h	/^	struct cds_lfs_head *head;$/;"	m	struct:cds_lfs_stack	typeref:struct:cds_lfs_stack::cds_lfs_head
+head	include/urcu/rculfqueue.h	/^	struct cds_lfq_node_rcu *head, *tail;$/;"	m	struct:cds_lfq_queue_rcu	typeref:struct:cds_lfq_queue_rcu::cds_lfq_node_rcu
+head	include/urcu/rculfstack.h	/^	struct cds_lfs_node_rcu *head;$/;"	m	struct:cds_lfs_stack_rcu	typeref:struct:cds_lfs_stack_rcu::cds_lfs_node_rcu
+head	include/urcu/static/rculfqueue.h	/^	struct rcu_head head;$/;"	m	struct:cds_lfq_node_rcu_dummy	typeref:struct:cds_lfq_node_rcu_dummy::rcu_head
+head	include/urcu/wfqueue.h	/^	struct cds_wfq_node *head, **tail;$/;"	m	struct:cds_wfq_queue	typeref:struct:cds_wfq_queue::cds_wfq_node
+head	include/urcu/wfstack.h	/^	struct cds_wfs_head *head;$/;"	m	struct:__cds_wfs_stack	typeref:struct:__cds_wfs_stack::cds_wfs_head
+head	include/urcu/wfstack.h	/^	struct cds_wfs_head *head;$/;"	m	struct:cds_wfs_stack	typeref:struct:cds_wfs_stack::cds_wfs_head
+head	pthrd/list.h	/^  list_item *head;$/;"	m	struct:__anon6
+id	pthrd/list.h	/^  int id;$/;"	m	struct:_list_item
+id2ptr	pthrd/list.h	/^  int *id2ptr;$/;"	m	struct:__anon6
+init_done	include/urcu/tls-compat.h	/^	int init_done;$/;"	m	struct:urcu_tls
+init_mutex	include/urcu/tls-compat.h	/^	pthread_mutex_t init_mutex;$/;"	m	struct:urcu_tls
+jhash	share/doc/userspace-rcu/examples/rculfhash/jhash.h	/^uint32_t jhash(const void *key, size_t length, uint32_t seed)$/;"	f
+key	include/urcu/tls-compat.h	/^	pthread_key_t key;$/;"	m	struct:urcu_tls
+list	pthrd/list.h	/^} list;$/;"	t	typeref:struct:__anon6
+list_add_element	pthrd/list.c	/^list_add_element(list *l, void *ptr)$/;"	f
+list_create	pthrd/list.c	/^list_create(int nodecnt)$/;"	f
+list_each_element	pthrd/list.c	/^list_each_element(list *l, int (*func)(list_item *))$/;"	f
+list_element	pthrd/list.c	/^list_element(list *l, int id)$/;"	f
+list_element_wo_cache	pthrd/list.c	/^list_element_wo_cache(list *l, int id)$/;"	f
+list_free	pthrd/list.c	/^list_free(list *l)$/;"	f
+list_item	pthrd/list.h	/^} list_item;$/;"	t	typeref:struct:_list_item
+list_remove_element	pthrd/list.c	/^list_remove_element(list *l, void *ptr, int id)$/;"	f
+lock	include/urcu/lfstack.h	/^	pthread_mutex_t lock;$/;"	m	struct:cds_lfs_stack
+lock	include/urcu/wfcqueue.h	/^	pthread_mutex_t lock;$/;"	m	struct:cds_wfcq_head
+lock	include/urcu/wfqueue.h	/^	pthread_mutex_t lock;$/;"	m	struct:cds_wfq_queue
+lock	include/urcu/wfstack.h	/^	pthread_mutex_t lock;$/;"	m	struct:cds_wfs_stack
+main	pthrd/list.c	/^main (int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/hlist/cds_hlist_add_head_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/hlist/cds_hlist_del_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_entry_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_all_blocking.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_blocking.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/lfstack/cds_lfs_push.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/list/cds_list_add_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/list/cds_list_add_tail_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/list/cds_list_del_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/list/cds_list_for_each_entry_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/list/cds_list_for_each_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/list/cds_list_replace_rcu.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^main (int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_unique.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_del.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_destroy.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_lookup.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_dequeue.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_enqueue.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/urcu-flavors/bp.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/urcu-flavors/membarrier.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/urcu-flavors/qsbr.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_dequeue.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_enqueue.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_splice.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop_all_blocking.c	/^int main(int argc, char **argv)$/;"	f
+main	share/doc/userspace-rcu/examples/wfstack/cds_wfs_push.c	/^int main(int argc, char **argv)$/;"	f
+main_orig	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^int main_orig(int argc, char **argv)$/;"	f
+make_dummy	include/urcu/static/rculfqueue.h	/^struct cds_lfq_node_rcu *make_dummy(struct cds_lfq_queue_rcu *q,$/;"	f
+match	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^int match(struct cds_lfht_node *ht_node, const void *_key)$/;"	f	file:
+match	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_unique.c	/^int match(struct cds_lfht_node *ht_node, const void *_key)$/;"	f	file:
+match	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_del.c	/^int match(struct cds_lfht_node *ht_node, const void *_key)$/;"	f	file:
+match	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c	/^int match(struct cds_lfht_node *ht_node, const void *_key)$/;"	f	file:
+match	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_lookup.c	/^int match(struct cds_lfht_node *ht_node, const void *_key)$/;"	f	file:
+mix	share/doc/userspace-rcu/examples/rculfhash/jhash.h	29;"	d
+mutex	pthrd/list.h	/^  pthread_mutex_t mutex;$/;"	m	struct:__anon6
+mynode	share/doc/userspace-rcu/examples/hlist/cds_hlist_add_head_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/hlist/cds_hlist_del_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_entry_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_all_blocking.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_blocking.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/lfstack/cds_lfs_push.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/list/cds_list_add_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/list/cds_list_add_tail_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/list/cds_list_del_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/list/cds_list_for_each_entry_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/list/cds_list_for_each_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/list/cds_list_replace_rcu.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_unique.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_del.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_destroy.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_lookup.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_dequeue.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_enqueue.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/urcu-flavors/bp.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/urcu-flavors/membarrier.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/urcu-flavors/qsbr.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_dequeue.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_enqueue.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_splice.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop_all_blocking.c	/^struct mynode {$/;"	s	file:
+mynode	share/doc/userspace-rcu/examples/wfstack/cds_wfs_push.c	/^struct mynode {$/;"	s	file:
+need_mb	include/urcu/static/urcu.h	/^	char need_mb;$/;"	m	struct:rcu_reader
+next	include/urcu-call-rcu.h	/^	struct cds_wfcq_node next;$/;"	m	struct:rcu_head	typeref:struct:rcu_head::cds_wfcq_node
+next	include/urcu/hlist.h	/^	struct cds_hlist_node *next, *prev;$/;"	m	struct:cds_hlist_node	typeref:struct:cds_hlist_node::cds_hlist_node
+next	include/urcu/hlist.h	/^	struct cds_hlist_node *next;$/;"	m	struct:cds_hlist_head	typeref:struct:cds_hlist_head::cds_hlist_node
+next	include/urcu/lfstack.h	/^	struct cds_lfs_node *next;$/;"	m	struct:cds_lfs_node	typeref:struct:cds_lfs_node::cds_lfs_node
+next	include/urcu/list.h	/^	struct cds_list_head *next, *prev;$/;"	m	struct:cds_list_head	typeref:struct:cds_list_head::cds_list_head
+next	include/urcu/rculfhash.h	/^	struct cds_lfht_node *next;	\/* ptr | REMOVAL_OWNER_FLAG | BUCKET_FLAG | REMOVED_FLAG *\/$/;"	m	struct:cds_lfht_node	typeref:struct:cds_lfht_node::cds_lfht_node
+next	include/urcu/rculfhash.h	/^	struct cds_lfht_node *node, *next;$/;"	m	struct:cds_lfht_iter	typeref:struct:cds_lfht_iter::
+next	include/urcu/rculfqueue.h	/^	struct cds_lfq_node_rcu *next;$/;"	m	struct:cds_lfq_node_rcu	typeref:struct:cds_lfq_node_rcu::cds_lfq_node_rcu
+next	include/urcu/rculfstack.h	/^	struct cds_lfs_node_rcu *next;$/;"	m	struct:cds_lfs_node_rcu	typeref:struct:cds_lfs_node_rcu::cds_lfs_node_rcu
+next	include/urcu/wfcqueue.h	/^	struct cds_wfcq_node *next;$/;"	m	struct:cds_wfcq_node	typeref:struct:cds_wfcq_node::cds_wfcq_node
+next	include/urcu/wfqueue.h	/^	struct cds_wfq_node *next;$/;"	m	struct:cds_wfq_node	typeref:struct:cds_wfq_node::cds_wfq_node
+next	include/urcu/wfstack.h	/^	struct cds_wfs_node *next;$/;"	m	struct:cds_wfs_node	typeref:struct:cds_wfs_node::cds_wfs_node
+next	pthrd/list.h	/^  struct _list_item *next;$/;"	m	struct:_list_item	typeref:struct:_list_item::_list_item
+node	include/urcu/lfstack.h	/^	struct cds_lfs_node node;$/;"	m	struct:cds_lfs_head	typeref:struct:cds_lfs_head::cds_lfs_node
+node	include/urcu/rculfhash.h	/^	struct cds_lfht_node *node, *next;$/;"	m	struct:cds_lfht_iter	typeref:struct:cds_lfht_iter::cds_lfht_node
+node	include/urcu/static/urcu-bp.h	/^	struct cds_list_head node __attribute__((aligned(CAA_CACHE_LINE_SIZE)));$/;"	m	struct:rcu_reader	typeref:struct:rcu_reader::cds_list_head
+node	include/urcu/static/urcu-qsbr.h	/^	struct cds_list_head node __attribute__((aligned(CAA_CACHE_LINE_SIZE)));$/;"	m	struct:rcu_reader	typeref:struct:rcu_reader::cds_list_head
+node	include/urcu/static/urcu.h	/^	struct cds_list_head node __attribute__((aligned(CAA_CACHE_LINE_SIZE)));$/;"	m	struct:rcu_reader	typeref:struct:rcu_reader::cds_list_head
+node	include/urcu/wfcqueue.h	/^	struct cds_wfcq_node node;$/;"	m	struct:__cds_wfcq_head	typeref:struct:__cds_wfcq_head::cds_wfcq_node
+node	include/urcu/wfcqueue.h	/^	struct cds_wfcq_node node;$/;"	m	struct:cds_wfcq_head	typeref:struct:cds_wfcq_head::cds_wfcq_node
+node	include/urcu/wfstack.h	/^	struct cds_wfs_node node;$/;"	m	struct:cds_wfs_head	typeref:struct:cds_wfs_head::cds_wfs_node
+node	share/doc/userspace-rcu/examples/hlist/cds_hlist_add_head_rcu.c	/^	struct cds_hlist_node node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_hlist_node	file:
+node	share/doc/userspace-rcu/examples/hlist/cds_hlist_del_rcu.c	/^	struct cds_hlist_node node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_hlist_node	file:
+node	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_entry_rcu.c	/^	struct cds_hlist_node node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_hlist_node	file:
+node	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_rcu.c	/^	struct cds_hlist_node node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_hlist_node	file:
+node	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_all_blocking.c	/^	struct cds_lfs_node node;	\/* Chaining in stack *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfs_node	file:
+node	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_blocking.c	/^	struct cds_lfs_node node;	\/* Chaining in stack *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfs_node	file:
+node	share/doc/userspace-rcu/examples/lfstack/cds_lfs_push.c	/^	struct cds_lfs_node node;	\/* Chaining in stack *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfs_node	file:
+node	share/doc/userspace-rcu/examples/list/cds_list_add_rcu.c	/^	struct cds_list_head node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/list/cds_list_add_tail_rcu.c	/^	struct cds_list_head node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/list/cds_list_del_rcu.c	/^	struct cds_list_head node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/list/cds_list_for_each_entry_rcu.c	/^	struct cds_list_head node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/list/cds_list_for_each_rcu.c	/^	struct cds_list_head node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/list/cds_list_replace_rcu.c	/^	struct cds_list_head node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^	struct cds_list_head node;	\/* Linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add.c	/^	struct cds_lfht_node node;	\/* Chaining in hash table *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfht_node	file:
+node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^	struct cds_lfht_node node;	\/* Chaining in hash table *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfht_node	file:
+node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_unique.c	/^	struct cds_lfht_node node;	\/* Chaining in hash table *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfht_node	file:
+node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_del.c	/^	struct cds_lfht_node node;	\/* Chaining in hash table *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfht_node	file:
+node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_destroy.c	/^	struct cds_lfht_node node;	\/* Chaining in hash table *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfht_node	file:
+node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c	/^	struct cds_lfht_node node;	\/* Chaining in hash table *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfht_node	file:
+node	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_lookup.c	/^	struct cds_lfht_node node;	\/* Chaining in hash table *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfht_node	file:
+node	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_dequeue.c	/^	struct cds_lfq_node_rcu node;	\/* Chaining in queue *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfq_node_rcu	file:
+node	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_enqueue.c	/^	struct cds_lfq_node_rcu node;	\/* Chaining in queue *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_lfq_node_rcu	file:
+node	share/doc/userspace-rcu/examples/urcu-flavors/bp.c	/^	struct cds_list_head node;	\/* linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	/^	struct cds_list_head node;	\/* linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/urcu-flavors/membarrier.c	/^	struct cds_list_head node;	\/* linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/urcu-flavors/qsbr.c	/^	struct cds_list_head node;	\/* linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	/^	struct cds_list_head node;	\/* linked-list chaining *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_list_head	file:
+node	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_dequeue.c	/^	struct cds_wfcq_node node;	\/* Chaining in queue *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_wfcq_node	file:
+node	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_enqueue.c	/^	struct cds_wfcq_node node;	\/* Chaining in queue *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_wfcq_node	file:
+node	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_splice.c	/^	struct cds_wfcq_node node;	\/* Chaining in queue *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_wfcq_node	file:
+node	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop.c	/^	struct cds_wfs_node node;	\/* Chaining in stack *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_wfs_node	file:
+node	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop_all_blocking.c	/^	struct cds_wfs_node node;	\/* Chaining in stack *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_wfs_node	file:
+node	share/doc/userspace-rcu/examples/wfstack/cds_wfs_push.c	/^	struct cds_wfs_node node;	\/* Chaining in stack *\/$/;"	m	struct:mynode	typeref:struct:mynode::cds_wfs_node	file:
+nodecnt	pthrd/list.c	/^	int nodecnt;$/;"	m	struct:_thrd_cfg	file:
+nodecnt	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^	int nodecnt;$/;"	m	struct:_thrd_cfg	file:
+p	include/urcu/wfcqueue.h	/^	struct cds_wfcq_node *p;$/;"	m	struct:cds_wfcq_tail	typeref:struct:cds_wfcq_tail::cds_wfcq_node
+parent	include/urcu/static/rculfqueue.h	/^	struct cds_lfq_node_rcu parent;$/;"	m	struct:cds_lfq_node_rcu_dummy	typeref:struct:cds_lfq_node_rcu_dummy::cds_lfq_node_rcu
+prev	include/urcu/hlist.h	/^	struct cds_hlist_node *next, *prev;$/;"	m	struct:cds_hlist_node	typeref:struct:cds_hlist_node::
+prev	include/urcu/list.h	/^	struct cds_list_head *next, *prev;$/;"	m	struct:cds_list_head	typeref:struct:cds_list_head::
+prev	pthrd/list.h	/^  struct _list_item *prev;$/;"	m	struct:_list_item	typeref:struct:_list_item::_list_item
+print_queue	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_splice.c	/^void print_queue(struct cds_wfcq_head *head,$/;"	f	file:
+q	include/urcu/static/rculfqueue.h	/^	struct cds_lfq_queue_rcu *q;$/;"	m	struct:cds_lfq_node_rcu_dummy	typeref:struct:cds_lfq_node_rcu_dummy::cds_lfq_queue_rcu
+queue_call_rcu	include/urcu/rculfqueue.h	/^	void (*queue_call_rcu)(struct rcu_head *head,$/;"	m	struct:cds_lfq_queue_rcu
+rand_r	include/urcu/rand-compat.h	/^static inline int rand_r(unsigned int *seed)$/;"	f
+rcu_assign_pointer	include/urcu-pointer.h	123;"	d
+rcu_barrier	include/urcu/map/urcu-bp.h	66;"	d
+rcu_barrier	include/urcu/map/urcu-qsbr.h	68;"	d
+rcu_barrier	include/urcu/map/urcu.h	117;"	d
+rcu_barrier	include/urcu/map/urcu.h	159;"	d
+rcu_barrier	include/urcu/map/urcu.h	72;"	d
+rcu_cmpxchg_pointer	include/urcu-pointer.h	61;"	d
+rcu_cmpxchg_pointer	include/urcu-pointer.h	77;"	d
+rcu_cmpxchg_pointer_bp	include/urcu-bp.h	105;"	d
+rcu_cmpxchg_pointer_bp	include/urcu-bp.h	80;"	d
+rcu_defer_barrier	include/urcu/map/urcu-bp.h	71;"	d
+rcu_defer_barrier	include/urcu/map/urcu-qsbr.h	73;"	d
+rcu_defer_barrier	include/urcu/map/urcu.h	122;"	d
+rcu_defer_barrier	include/urcu/map/urcu.h	164;"	d
+rcu_defer_barrier	include/urcu/map/urcu.h	77;"	d
+rcu_defer_barrier_thread	include/urcu/map/urcu-bp.h	72;"	d
+rcu_defer_barrier_thread	include/urcu/map/urcu-qsbr.h	74;"	d
+rcu_defer_barrier_thread	include/urcu/map/urcu.h	123;"	d
+rcu_defer_barrier_thread	include/urcu/map/urcu.h	165;"	d
+rcu_defer_barrier_thread	include/urcu/map/urcu.h	78;"	d
+rcu_defer_exit	include/urcu/map/urcu-bp.h	73;"	d
+rcu_defer_exit	include/urcu/map/urcu-qsbr.h	75;"	d
+rcu_defer_exit	include/urcu/map/urcu.h	124;"	d
+rcu_defer_exit	include/urcu/map/urcu.h	166;"	d
+rcu_defer_exit	include/urcu/map/urcu.h	79;"	d
+rcu_defer_register_thread	include/urcu/map/urcu-bp.h	69;"	d
+rcu_defer_register_thread	include/urcu/map/urcu-qsbr.h	71;"	d
+rcu_defer_register_thread	include/urcu/map/urcu.h	120;"	d
+rcu_defer_register_thread	include/urcu/map/urcu.h	162;"	d
+rcu_defer_register_thread	include/urcu/map/urcu.h	75;"	d
+rcu_defer_unregister_thread	include/urcu/map/urcu-bp.h	70;"	d
+rcu_defer_unregister_thread	include/urcu/map/urcu-qsbr.h	72;"	d
+rcu_defer_unregister_thread	include/urcu/map/urcu.h	121;"	d
+rcu_defer_unregister_thread	include/urcu/map/urcu.h	163;"	d
+rcu_defer_unregister_thread	include/urcu/map/urcu.h	76;"	d
+rcu_dereference	include/urcu-pointer.h	47;"	d
+rcu_dereference	include/urcu-pointer.h	68;"	d
+rcu_dereference_bp	include/urcu-bp.h	79;"	d
+rcu_dereference_bp	include/urcu-bp.h	96;"	d
+rcu_exit	include/urcu/map/urcu-bp.h	46;"	d
+rcu_exit	include/urcu/map/urcu-qsbr.h	49;"	d
+rcu_exit	include/urcu/map/urcu.h	139;"	d
+rcu_exit	include/urcu/map/urcu.h	52;"	d
+rcu_exit	include/urcu/map/urcu.h	97;"	d
+rcu_flavor	include/urcu/map/urcu-bp.h	75;"	d
+rcu_flavor	include/urcu/map/urcu-qsbr.h	77;"	d
+rcu_flavor	include/urcu/map/urcu.h	126;"	d
+rcu_flavor	include/urcu/map/urcu.h	168;"	d
+rcu_flavor	include/urcu/map/urcu.h	81;"	d
+rcu_flavor_struct	include/urcu-flavor.h	/^struct rcu_flavor_struct {$/;"	s
+rcu_free_dummy	include/urcu/static/rculfqueue.h	/^void rcu_free_dummy(struct cds_lfq_node_rcu *node)$/;"	f
+rcu_free_node	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	/^void rcu_free_node(struct rcu_head *rh)$/;"	f	file:
+rcu_free_node	share/doc/userspace-rcu/examples/urcu-flavors/membarrier.c	/^void rcu_free_node(struct rcu_head *rh)$/;"	f	file:
+rcu_free_node	share/doc/userspace-rcu/examples/urcu-flavors/qsbr.c	/^void rcu_free_node(struct rcu_head *rh)$/;"	f	file:
+rcu_free_node	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	/^void rcu_free_node(struct rcu_head *rh)$/;"	f	file:
+rcu_gp	include/urcu/map/urcu-bp.h	49;"	d
+rcu_gp	include/urcu/map/urcu-qsbr.h	52;"	d
+rcu_gp	include/urcu/map/urcu.h	100;"	d
+rcu_gp	include/urcu/map/urcu.h	142;"	d
+rcu_gp	include/urcu/map/urcu.h	55;"	d
+rcu_gp	include/urcu/static/urcu-bp.h	/^struct rcu_gp {$/;"	s
+rcu_gp	include/urcu/static/urcu-qsbr.h	/^struct rcu_gp {$/;"	s
+rcu_gp	include/urcu/static/urcu.h	/^struct rcu_gp {$/;"	s
+rcu_has_sys_membarrier	include/urcu/map/urcu.h	84;"	d
+rcu_head	include/urcu-call-rcu.h	/^struct rcu_head {$/;"	s
+rcu_head	share/doc/userspace-rcu/examples/hlist/cds_hlist_del_rcu.c	/^	struct rcu_head rcu_head;	\/* For call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/list/cds_list_del_rcu.c	/^	struct rcu_head rcu_head;	\/* For call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/list/cds_list_replace_rcu.c	/^	struct rcu_head rcu_head;	\/* For call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^	struct rcu_head rcu_head;	\/* For call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_del.c	/^	struct rcu_head rcu_head;	\/* For call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_destroy.c	/^	struct rcu_head rcu_head;	\/* For call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_dequeue.c	/^	struct rcu_head rcu_head;	\/* For call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/urcu-flavors/bp.c	/^	struct rcu_head rcu_head;	\/* for call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	/^	struct rcu_head rcu_head;	\/* for call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/urcu-flavors/membarrier.c	/^	struct rcu_head rcu_head;	\/* for call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/urcu-flavors/qsbr.c	/^	struct rcu_head rcu_head;	\/* for call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_head	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	/^	struct rcu_head rcu_head;	\/* for call_rcu() *\/$/;"	m	struct:mynode	typeref:struct:mynode::rcu_head	file:
+rcu_init	include/urcu-bp.h	/^static inline void rcu_init(void)$/;"	f
+rcu_init	include/urcu/map/urcu-bp.h	45;"	d
+rcu_init	include/urcu/map/urcu.h	138;"	d
+rcu_init	include/urcu/map/urcu.h	51;"	d
+rcu_init	include/urcu/map/urcu.h	96;"	d
+rcu_quiescent_state	include/urcu-bp.h	/^static inline void rcu_quiescent_state(void)$/;"	f
+rcu_quiescent_state	include/urcu.h	/^static inline void rcu_quiescent_state(void)$/;"	f
+rcu_quiescent_state	include/urcu/map/urcu-qsbr.h	43;"	d
+rcu_quiescent_state_qsbr	include/urcu-qsbr.h	79;"	d
+rcu_rand_yield	include/urcu/map/urcu-bp.h	78;"	d
+rcu_read_lock	include/urcu-qsbr.h	/^static inline void rcu_read_lock(void)$/;"	f
+rcu_read_lock	include/urcu/map/urcu-bp.h	37;"	d
+rcu_read_lock	include/urcu/map/urcu-qsbr.h	37;"	d
+rcu_read_lock	include/urcu/map/urcu.h	130;"	d
+rcu_read_lock	include/urcu/map/urcu.h	43;"	d
+rcu_read_lock	include/urcu/map/urcu.h	88;"	d
+rcu_read_lock_bp	include/urcu-bp.h	75;"	d
+rcu_read_lock_mb	include/urcu.h	83;"	d
+rcu_read_lock_memb	include/urcu.h	75;"	d
+rcu_read_lock_qsbr	include/urcu-qsbr.h	75;"	d
+rcu_read_lock_sig	include/urcu.h	79;"	d
+rcu_read_ongoing	include/urcu/map/urcu-bp.h	41;"	d
+rcu_read_ongoing	include/urcu/map/urcu-qsbr.h	41;"	d
+rcu_read_ongoing	include/urcu/map/urcu.h	134;"	d
+rcu_read_ongoing	include/urcu/map/urcu.h	47;"	d
+rcu_read_ongoing	include/urcu/map/urcu.h	92;"	d
+rcu_read_ongoing_bp	include/urcu-bp.h	77;"	d
+rcu_read_ongoing_mb	include/urcu.h	85;"	d
+rcu_read_ongoing_memb	include/urcu.h	77;"	d
+rcu_read_ongoing_qsbr	include/urcu-qsbr.h	77;"	d
+rcu_read_ongoing_sig	include/urcu.h	81;"	d
+rcu_read_unlock	include/urcu-qsbr.h	/^static inline void rcu_read_unlock(void)$/;"	f
+rcu_read_unlock	include/urcu/map/urcu-bp.h	39;"	d
+rcu_read_unlock	include/urcu/map/urcu-qsbr.h	39;"	d
+rcu_read_unlock	include/urcu/map/urcu.h	132;"	d
+rcu_read_unlock	include/urcu/map/urcu.h	45;"	d
+rcu_read_unlock	include/urcu/map/urcu.h	90;"	d
+rcu_read_unlock_bp	include/urcu-bp.h	76;"	d
+rcu_read_unlock_mb	include/urcu.h	84;"	d
+rcu_read_unlock_memb	include/urcu.h	76;"	d
+rcu_read_unlock_qsbr	include/urcu-qsbr.h	76;"	d
+rcu_read_unlock_sig	include/urcu.h	80;"	d
+rcu_reader	include/urcu/map/urcu-bp.h	48;"	d
+rcu_reader	include/urcu/map/urcu-qsbr.h	51;"	d
+rcu_reader	include/urcu/map/urcu.h	141;"	d
+rcu_reader	include/urcu/map/urcu.h	54;"	d
+rcu_reader	include/urcu/map/urcu.h	99;"	d
+rcu_reader	include/urcu/static/urcu-bp.h	/^struct rcu_reader {$/;"	s
+rcu_reader	include/urcu/static/urcu-qsbr.h	/^struct rcu_reader {$/;"	s
+rcu_reader	include/urcu/static/urcu.h	/^struct rcu_reader {$/;"	s
+rcu_reader_state	include/urcu/static/urcu-bp.h	/^static inline enum rcu_state rcu_reader_state(unsigned long *ctr)$/;"	f
+rcu_reader_state	include/urcu/static/urcu-qsbr.h	/^static inline enum rcu_state rcu_reader_state(unsigned long *ctr)$/;"	f
+rcu_reader_state	include/urcu/static/urcu.h	/^static inline enum rcu_state rcu_reader_state(unsigned long *ctr)$/;"	f
+rcu_register_thread	include/urcu-bp.h	/^static inline void rcu_register_thread(void)$/;"	f
+rcu_register_thread	include/urcu/map/urcu-bp.h	43;"	d
+rcu_register_thread	include/urcu/map/urcu-qsbr.h	47;"	d
+rcu_register_thread	include/urcu/map/urcu.h	136;"	d
+rcu_register_thread	include/urcu/map/urcu.h	49;"	d
+rcu_register_thread	include/urcu/map/urcu.h	94;"	d
+rcu_set_pointer	include/urcu-pointer.h	107;"	d
+rcu_set_pointer	include/urcu-pointer.h	63;"	d
+rcu_set_pointer_bp	include/urcu-bp.h	129;"	d
+rcu_set_pointer_bp	include/urcu-bp.h	82;"	d
+rcu_state	include/urcu/static/urcu-bp.h	/^enum rcu_state {$/;"	g
+rcu_state	include/urcu/static/urcu-qsbr.h	/^enum rcu_state {$/;"	g
+rcu_state	include/urcu/static/urcu.h	/^enum rcu_state {$/;"	g
+rcu_thread_offline	include/urcu-bp.h	/^static inline void rcu_thread_offline(void)$/;"	f
+rcu_thread_offline	include/urcu.h	/^static inline void rcu_thread_offline(void)$/;"	f
+rcu_thread_offline	include/urcu/map/urcu-qsbr.h	45;"	d
+rcu_thread_offline_qsbr	include/urcu-qsbr.h	80;"	d
+rcu_thread_online	include/urcu-bp.h	/^static inline void rcu_thread_online(void)$/;"	f
+rcu_thread_online	include/urcu.h	/^static inline void rcu_thread_online(void)$/;"	f
+rcu_thread_online	include/urcu/map/urcu-qsbr.h	46;"	d
+rcu_thread_online_qsbr	include/urcu-qsbr.h	81;"	d
+rcu_unregister_thread	include/urcu-bp.h	/^static inline void rcu_unregister_thread(void)$/;"	f
+rcu_unregister_thread	include/urcu/map/urcu-bp.h	44;"	d
+rcu_unregister_thread	include/urcu/map/urcu-qsbr.h	48;"	d
+rcu_unregister_thread	include/urcu/map/urcu.h	137;"	d
+rcu_unregister_thread	include/urcu/map/urcu.h	50;"	d
+rcu_unregister_thread	include/urcu/map/urcu.h	95;"	d
+rcu_xchg_pointer	include/urcu-pointer.h	62;"	d
+rcu_xchg_pointer	include/urcu-pointer.h	90;"	d
+rcu_xchg_pointer_bp	include/urcu-bp.h	118;"	d
+rcu_xchg_pointer_bp	include/urcu-bp.h	81;"	d
+rcu_yield_active	include/urcu/map/urcu-bp.h	77;"	d
+rdtscll	include/urcu/arch.h	75;"	d
+read_lock	include/urcu-flavor.h	/^	void (*read_lock)(void);$/;"	m	struct:rcu_flavor_struct
+read_ongoing	include/urcu-flavor.h	/^	int (*read_ongoing)(void);$/;"	m	struct:rcu_flavor_struct
+read_quiescent_state	include/urcu-flavor.h	/^	void (*read_quiescent_state)(void);$/;"	m	struct:rcu_flavor_struct
+read_unlock	include/urcu-flavor.h	/^	void (*read_unlock)(void);$/;"	m	struct:rcu_flavor_struct
+readthrd_body	pthrd/list.c	/^readthrd_body (void *ptr)$/;"	f
+readthrd_body	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^readthrd_body (void *ptr)$/;"	f
+refcount	include/urcu/ref.h	/^	long refcount; \/* ATOMIC *\/$/;"	m	struct:urcu_ref
+register_thread	include/urcu-flavor.h	/^	void (*register_thread)(void);$/;"	m	struct:rcu_flavor_struct
+registered	include/urcu/static/urcu-qsbr.h	/^	unsigned int registered:1;$/;"	m	struct:rcu_reader
+registered	include/urcu/static/urcu.h	/^	unsigned int registered:1;$/;"	m	struct:rcu_reader
+reverse_hash	include/urcu/rculfhash.h	/^	unsigned long reverse_hash;$/;"	m	struct:cds_lfht_node
+rot	share/doc/userspace-rcu/examples/rculfhash/jhash.h	27;"	d
+s	include/urcu/lfstack.h	/^	struct cds_lfs_stack *s;$/;"	m	union:__anon1	typeref:struct:__anon1::cds_lfs_stack
+s	include/urcu/wfstack.h	/^	struct cds_wfs_stack *s;$/;"	m	union:__anon5	typeref:struct:__anon5::cds_wfs_stack
+seqnum	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^	int seqnum;			\/* Our node sequence number *\/$/;"	m	struct:mynode	file:
+seqnum	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_unique.c	/^	int seqnum;			\/* Our node sequence number *\/$/;"	m	struct:mynode	file:
+seqnum	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c	/^	int seqnum;			\/* Our node sequence number *\/$/;"	m	struct:mynode	file:
+seqnum	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_lookup.c	/^	int seqnum;			\/* Our node sequence number *\/$/;"	m	struct:mynode	file:
+set_cpu_call_rcu_data	include/urcu/map/urcu-bp.h	54;"	d
+set_cpu_call_rcu_data	include/urcu/map/urcu-qsbr.h	57;"	d
+set_cpu_call_rcu_data	include/urcu/map/urcu.h	105;"	d
+set_cpu_call_rcu_data	include/urcu/map/urcu.h	147;"	d
+set_cpu_call_rcu_data	include/urcu/map/urcu.h	60;"	d
+set_thread_call_rcu_data	include/urcu/map/urcu-bp.h	58;"	d
+set_thread_call_rcu_data	include/urcu/map/urcu-qsbr.h	61;"	d
+set_thread_call_rcu_data	include/urcu/map/urcu.h	109;"	d
+set_thread_call_rcu_data	include/urcu/map/urcu.h	151;"	d
+set_thread_call_rcu_data	include/urcu/map/urcu.h	64;"	d
+smp_mb_slave	include/urcu/static/urcu.h	/^static inline void smp_mb_slave(void)$/;"	f
+synchronize_rcu	include/urcu/map/urcu-bp.h	47;"	d
+synchronize_rcu	include/urcu/map/urcu-qsbr.h	50;"	d
+synchronize_rcu	include/urcu/map/urcu.h	140;"	d
+synchronize_rcu	include/urcu/map/urcu.h	53;"	d
+synchronize_rcu	include/urcu/map/urcu.h	98;"	d
+tail	include/urcu/rculfqueue.h	/^	struct cds_lfq_node_rcu *head, *tail;$/;"	m	struct:cds_lfq_queue_rcu	typeref:struct:cds_lfq_queue_rcu::
+tail	include/urcu/wfqueue.h	/^	struct cds_wfq_node *head, **tail;$/;"	m	struct:cds_wfq_queue	typeref:struct:cds_wfq_queue::
+tail	pthrd/list.h	/^  list_item *tail;$/;"	m	struct:__anon6
+thrd_cfg	pthrd/list.c	/^} thrd_cfg;$/;"	t	typeref:struct:_thrd_cfg	file:
+thrd_cfg	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^} thrd_cfg;$/;"	t	typeref:struct:_thrd_cfg	file:
+thrdid	pthrd/list.c	/^	int thrdid;$/;"	m	struct:_thrd_cfg	file:
+thrdid	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^	int thrdid;$/;"	m	struct:_thrd_cfg	file:
+thread_offline	include/urcu-flavor.h	/^	void (*thread_offline)(void);$/;"	m	struct:rcu_flavor_struct
+thread_online	include/urcu-flavor.h	/^	void (*thread_online)(void);$/;"	m	struct:rcu_flavor_struct
+tid	include/urcu/static/urcu-bp.h	/^	pthread_t tid;$/;"	m	struct:rcu_reader
+tid	include/urcu/static/urcu-qsbr.h	/^	pthread_t tid;$/;"	m	struct:rcu_reader
+tid	include/urcu/static/urcu.h	/^	pthread_t tid;$/;"	m	struct:rcu_reader
+uatomic_add	include/urcu/uatomic.h	611;"	d
+uatomic_add	include/urcu/uatomic/generic.h	585;"	d
+uatomic_add_return	include/urcu/uatomic.h	608;"	d
+uatomic_add_return	include/urcu/uatomic/generic.h	206;"	d
+uatomic_add_return	include/urcu/uatomic/generic.h	498;"	d
+uatomic_and	include/urcu/uatomic.h	598;"	d
+uatomic_and	include/urcu/uatomic/generic.h	128;"	d
+uatomic_and	include/urcu/uatomic/generic.h	345;"	d
+uatomic_cmpxchg	include/urcu/uatomic.h	593;"	d
+uatomic_cmpxchg	include/urcu/uatomic/generic.h	91;"	d
+uatomic_dec	include/urcu/uatomic.h	619;"	d
+uatomic_dec	include/urcu/uatomic/generic.h	604;"	d
+uatomic_inc	include/urcu/uatomic.h	615;"	d
+uatomic_inc	include/urcu/uatomic/generic.h	598;"	d
+uatomic_or	include/urcu/uatomic.h	603;"	d
+uatomic_or	include/urcu/uatomic/generic.h	168;"	d
+uatomic_or	include/urcu/uatomic/generic.h	419;"	d
+uatomic_read	include/urcu/uatomic/generic.h	37;"	d
+uatomic_set	include/urcu/uatomic.h	590;"	d
+uatomic_set	include/urcu/uatomic/generic.h	33;"	d
+uatomic_sub	include/urcu/uatomic/generic.h	592;"	d
+uatomic_sub_return	include/urcu/uatomic/generic.h	590;"	d
+uatomic_xchg	include/urcu/uatomic.h	595;"	d
+uatomic_xchg	include/urcu/uatomic/generic.h	274;"	d
+uatomic_xchg	include/urcu/uatomic/generic.h	574;"	d
+unregister_thread	include/urcu-flavor.h	/^	void (*unregister_thread)(void);$/;"	m	struct:rcu_flavor_struct
+update_call_rcu	include/urcu-flavor.h	/^	void (*update_call_rcu)(struct rcu_head *head,$/;"	m	struct:rcu_flavor_struct
+update_defer_rcu	include/urcu-flavor.h	/^	void (*update_defer_rcu)(void (*fct)(void *p), void *p);$/;"	m	struct:rcu_flavor_struct
+update_synchronize_rcu	include/urcu-flavor.h	/^	void (*update_synchronize_rcu)(void);$/;"	m	struct:rcu_flavor_struct
+urcu_assert	include/urcu/debug.h	25;"	d
+urcu_assert	include/urcu/debug.h	27;"	d
+urcu_bp_smp_mb_slave	include/urcu/static/urcu-bp.h	/^static inline void urcu_bp_smp_mb_slave(void)$/;"	f
+urcu_ref	include/urcu/ref.h	/^struct urcu_ref {$/;"	s
+urcu_ref_get	include/urcu/ref.h	/^static inline void urcu_ref_get(struct urcu_ref *ref)$/;"	f
+urcu_ref_get_unless_zero	include/urcu/ref.h	/^static inline bool urcu_ref_get_unless_zero(struct urcu_ref *ref)$/;"	f
+urcu_ref_init	include/urcu/ref.h	/^static inline void urcu_ref_init(struct urcu_ref *ref)$/;"	f
+urcu_ref_put	include/urcu/ref.h	/^static inline void urcu_ref_put(struct urcu_ref *ref,$/;"	f
+urcu_ref_set	include/urcu/ref.h	/^static inline void urcu_ref_set(struct urcu_ref *ref, long val)$/;"	f
+urcu_tls	include/urcu/tls-compat.h	/^struct urcu_tls {$/;"	s
+v	include/urcu/uatomic.h	/^	unsigned long v[10];$/;"	m	struct:__uatomic_dummy
+value	pthrd/list.h	/^  void *value;$/;"	m	struct:_list_item
+value	share/doc/userspace-rcu/examples/hlist/cds_hlist_add_head_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/hlist/cds_hlist_del_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_entry_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/hlist/cds_hlist_for_each_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_all_blocking.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/lfstack/cds_lfs_pop_blocking.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/lfstack/cds_lfs_push.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/list/cds_list_add_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/list/cds_list_add_tail_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/list/cds_list_del_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/list/cds_list_for_each_entry_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/list/cds_list_for_each_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/list/cds_list_replace_rcu.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/multithreadlist/cds_list_add_rcu_mt.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_replace.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_add_unique.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_del.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_destroy.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfhash/cds_lfht_lookup.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_dequeue.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/rculfqueue/cds_lfq_enqueue.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/urcu-flavors/bp.c	/^	uint64_t value;$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/urcu-flavors/mb.c	/^	uint64_t value;$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/urcu-flavors/membarrier.c	/^	uint64_t value;$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/urcu-flavors/qsbr.c	/^	uint64_t value;$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/urcu-flavors/signal.c	/^	uint64_t value;$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_dequeue.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_enqueue.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/wfcqueue/cds_wfcq_splice.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/wfstack/cds_wfs_pop_all_blocking.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+value	share/doc/userspace-rcu/examples/wfstack/cds_wfs_push.c	/^	int value;			\/* Node content *\/$/;"	m	struct:mynode	file:
+waiting	include/urcu/static/urcu-qsbr.h	/^	int waiting;$/;"	m	struct:rcu_reader
+wake_up_gp	include/urcu/static/urcu-qsbr.h	/^static inline void wake_up_gp(void)$/;"	f
+wake_up_gp	include/urcu/static/urcu.h	/^static inline void wake_up_gp(void)$/;"	f

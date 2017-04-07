@@ -25,9 +25,9 @@
 #ifndef _URCU_RCUHLIST_H
 #define _URCU_RCUHLIST_H
 
-#include <urcu/hlist.h>
-#include <urcu/arch.h>
-#include <urcu-pointer.h>
+#include "urcu/hlist.h"
+#include "urcu/arch.h"
+#include "urcu-pointer.h"
 
 /* Add new element at the head of the list. */
 static inline

@@ -20,6 +20,7 @@ all:
 	$(MAKE) -C wfstack
 	$(MAKE) -C lfstack
 	$(MAKE) -C rculfhash
+	$(MAKE) -C multithreadlist
 
 .PHONY: clean
 clean:
@@ -31,3 +32,4 @@ clean:
 	$(MAKE) -C wfstack clean
 	$(MAKE) -C lfstack clean
 	$(MAKE) -C rculfhash clean
+	$(MAKE) -C multithreadlist clean
